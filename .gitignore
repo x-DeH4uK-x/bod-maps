@@ -3,3 +3,4 @@
 !maps
 !maps/*/
 !maps/*/*.py
+!maps/*/*.sf
