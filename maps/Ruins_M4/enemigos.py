@@ -23,7 +23,7 @@ pers.ImDeadFunc=AmazonDefeatsOrc
 pers.SetOnFloor()
 
 
-## 3 orcos apestosos más, socios de los 2 anteriores, merodean en los alrededores del puente con Gladiuss.
+## 3 orcos apestosos mï¿½s, socios de los 2 anteriores, merodean en los alrededores del puente con Gladiuss.
 
 
 #orco 4 en puente. Areas 3 y 4.
@@ -110,9 +110,9 @@ pers.SetOnFloor()
 pers.Freeze()
 
 
-## Por si no hubieran bastantes.. ¡2 orcos malolientes más frente a una pirámide! Areas 9 y 10.
+## Por si no hubieran bastantes.. ï¿½2 orcos malolientes mï¿½s frente a una pirï¿½mide! Areas 9 y 10.
 
-## Deberían patrullar
+## Deberï¿½an patrullar
 #orco maloliente 8
 
 Gladius=Bladex.CreateEntity("RuinsGladius8","Gladius",0,0,0,"Weapon")
@@ -152,7 +152,7 @@ pers.SetOnFloor()
 
 
 
-## .. No se vayan todavía, ¡aún hay más! 2 orquitos adorables en el interior zona NorOeste. Areas 11 y 12.
+## .. No se vayan todavï¿½a, ï¿½aï¿½n hay mï¿½s! 2 orquitos adorables en el interior zona NorOeste. Areas 11 y 12.
 
 
 #orquito adorable 10
@@ -207,13 +207,13 @@ potion.Solid=0
 potion.Scale=1.220190
 pocimac.CreatePotion("RuinsPotiongay")
 
-Gladius=Bladex.CreateEntity("RuinsGladius15","Garrote",0,0,0,"Weapon") #"Orksword",0,0,0,"Weapon")
+Gladius=Bladex.CreateEntity("RuinsGladius15","Orksword",0,0,0,"Weapon")
 ItemTypes.ItemDefaultFuncs(Gladius)
 
 
-pers=Bladex.CreateEntity("15orc","Ork",0,-13590,-10500,"Person") #"Great_Ork",0,-13590,-10500,"Person")
+pers=Bladex.CreateEntity("15orc","Great_Ork",0,-13590,-10500,"Person")
 pers.Angle=5.33479707957
-pers.Level=1
+pers.Level=0
 Actions.TakeObject(pers.Name,"RuinsGladius15")
 pers.ActionAreaMin=pow(2,18)
 pers.ActionAreaMax=pow(2,19)
@@ -277,7 +277,7 @@ pers.SetOnFloor()
 
 
 
-##Orco 12 patrullando en zona Norte alrededor de una pirámide. Sin area de acción.
+##Orco 12 patrullando en zona Norte alrededor de una pirï¿½mide. Sin area de acciï¿½n.
 
 
 Gladius=Bladex.CreateEntity("RuinsGladius12","Garrote",0,0,0,"Weapon")
@@ -308,7 +308,7 @@ pers.SetOnFloor()
 
 
 
-##Orco 13 patrullando en zona Sur. Sin area de acción.
+##Orco 13 patrullando en zona Sur. Sin area de acciï¿½n.
 
 
 Gladius=Bladex.CreateEntity("RuinsGladius13","Garrote",0,0,0,"Weapon")
