@@ -9,10 +9,10 @@ import Scorer
 import Bladex
 import GameText
 
-"""
+
 Orkswordx1=Bladex.CreateEntity("Gladiusx1","Gladius",0,0,0)
 Orkswordx1.Weapon=1
-escudo=Bladex.CreateEntity("Escudox1","Escudo1",0,0,0)
+escudo=Bladex.CreateEntity("Escudox1","Escudo5",0,0,0)
 Sparks.MakeShield("Escudox1")
 Breakings.SetBreakableWS("Escudox1")
 Breakings.SetBreakableWS("Gladiusx1")
@@ -26,7 +26,7 @@ Actions.TakeObject(pers.Name,"Escudox1")
 #pers.ActionAreaMax=pow(2,1)
 EnemyTypes.EnemyDefaultFuncs(pers)
 AniSound.AsignarSonidosOrco('x1ORC')
-"""
+
 
 darfuncs.MuertoyTroceado(109552.221511, 5983.35108641, -22875.7557749,"Enano2","",(1,7))
 darfuncs.MuertoyTroceado(111073.648725, 5983.62461273, -37665.0801836,"Enano1","",(4,),0)
