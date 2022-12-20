@@ -161,16 +161,16 @@ pers.ActionAreaMax=pow(2,5)
 EnemyTypes.EnemyDefaultFuncs(pers)
 pers.SetOnFloor()
 
-"""
+
 #----2	debajo de los puentes naturales
 
-espada6=Bladex.CreateEntity("barbespada6","Garrote",0,0,0,"Weapon")
-Breakings.SetBreakableWS("barbespada6")
+espada6=Bladex.CreateEntity("barbespada6b","Garrote",0,0,0,"Weapon")
+Breakings.SetBreakableWS("barbespada6b")
 
 pers=Bladex.CreateEntity("6ORC","Ork",-3553.25363186, -10459.1323469, 53923.4973735,"Person")
 pers.Angle=2.37530708478
 pers.Level=0
-Actions.TakeObject(pers.Name,"barbespada6")
+Actions.TakeObject(pers.Name,"barbespada6b")
 pers.ActionAreaMin=pow(2,4)
 pers.ActionAreaMax=pow(2,5)
 EnemyTypes.EnemyDefaultFuncs(pers)
@@ -190,31 +190,31 @@ pers.AddBayPoint=-19676.2113526, -11470.8366028, 7547.49423751
 pers.AddBayPoint=-6647.9173977, -11458.6761518, 15206.9789979
 pers.AddBayPoint=-2217.90231334, -11150.8351313, 33975.0510168
 pers.AddBayPoint=-3064.48932814, -10467.9243498, 50220.6557104
-"""
+
 
 
 ##frente a la puerta que no se abre
 
 
 #1
-#Espada7=Bladex.CreateEntity("barbEspada7","Garrote",0,0,0,"Weapon")
-#Breakings.SetBreakableWS("barbEspada7")
-##potion=Bladex.CreateEntity("PotionO7","Pocima50",0,0,0)
-#potion.Static=0
-#potion.Solid=1
-#potion.Scale=1.0
-#pocimac.CreatePotion("PotionO7")
+Espada7=Bladex.CreateEntity("barbEspada7","Garrote",0,0,0,"Weapon")
+Breakings.SetBreakableWS("barbEspada7")
+potion=Bladex.CreateEntity("PotionO7","Pocima50",0,0,0)
+potion.Static=0
+potion.Solid=1
+potion.Scale=1.0
+pocimac.CreatePotion("PotionO7")
 
 
-#pers=Bladex.CreateEntity("7ORC","Great_Ork",-33200.0230385, -11065.3964188, 47333.9931301,"Person")
-#pers.Angle=5.4405856872
-#pers.Level=0
-#Actions.TakeObject(pers.Name,"barbEspada7")
-#Actions.TakeObject(pers.Name,"PotionO7")
-#pers.ActionAreaMin=pow(2,4)
-#pers.ActionAreaMax=pow(2,5)
-#EnemyTypes.EnemyDefaultFuncs(pers)
-#pers.SetOnFloor()
+pers=Bladex.CreateEntity("7ORC","Great_Ork",-33200.0230385, -11065.3964188, 47333.9931301,"Person")
+pers.Angle=5.4405856872
+pers.Level=0
+Actions.TakeObject(pers.Name,"barbEspada7")
+Actions.TakeObject(pers.Name,"PotionO7")
+pers.ActionAreaMin=pow(2,4)
+pers.ActionAreaMax=pow(2,5)
+EnemyTypes.EnemyDefaultFuncs(pers)
+pers.SetOnFloor()
 
 #2
 Espada8=Bladex.CreateEntity("barbEspada8","Gladius",0,0,0,"Weapon")
@@ -630,7 +630,7 @@ pers.SetOnFloor()
 
 
 #-------ARANIAS EN SOTANO DE LA CASA
-"""
+
 #1
 pers=Bladex.CreateEntity("9SPD","Spidersmall",-167500,-10000,203500,"Person")
 pers.Angle=3.5
@@ -640,7 +640,7 @@ pers.ActionAreaMin=1<<31
 pers.ActionAreaMax=1<<31
 EnemyTypes.EnemyDefaultFuncs(pers)
 pers.SetOnFloor()
-"""
+
 #2
 pers=Bladex.CreateEntity("10SPD","Spidersmall",-162500,-9800,206500,"Person")
 pers.Angle=3
