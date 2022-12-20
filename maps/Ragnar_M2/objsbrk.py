@@ -15,12 +15,12 @@ BoxDestroyTime = 12
 
 ### Funcion: QuemaLaDichosaCajita(ObjectName,use_from)
 
-cajapatard=Bladex.CreateEntity("Burning","Caja_i_r",-88281.125713,-4945.727844,17929.830733)
-cajapatard.Scale=1.374941
-cajapatard.Orientation=0.548983,0.445137,-0.446649,-0.548613
-Reference.EntitiesSelectionData[cajapatard.Name]=(8.0,6000.0,MenuText.GetMenuText("Box"))
-Actions.SetBurnable("Burning",BoxBurnTime,BoxDestroyTime)
-cajapatard.UseFunc=QuemaLaDichosaCajita
+# cajapatard=Bladex.CreateEntity("Burning","Caja_i_r",-88281.125713,-4945.727844,17929.830733)
+# cajapatard.Scale=1.374941
+# cajapatard.Orientation=0.548983,0.445137,-0.446649,-0.548613
+# Reference.EntitiesSelectionData[cajapatard.Name]=(8.0,6000.0,MenuText.GetMenuText("Box"))
+# Actions.SetBurnable("Burning",BoxBurnTime,BoxDestroyTime)
+# cajapatard.UseFunc=QuemaLaDichosaCajita
 
 
 

@@ -31,7 +31,7 @@ o.UseFunc = SetFireToBoxes
 
 
 o=Bladex.CreateEntity("BKBox2","Caja_i_r",-90078.813308,-3274.676501,18282.632015)
-o.Static=0
+# o.Static=0
 o.Scale=1.295256
 o.Orientation=0.615434,0.615434,0.348196,-0.348196
 o.CastShadows=0
@@ -43,7 +43,7 @@ o.UseFunc = SetFireToBoxes
 
 
 o=Bladex.CreateEntity("BKBox3","Caja_i_r",-89433.118286,-4693.084370,20301.464450)
-o.Static=0
+# o.Static=0
 o.Scale=1.257163
 o.Orientation=0.410191,0.401885,0.574209,-0.583536
 o.CastShadows=0
@@ -55,7 +55,7 @@ o.UseFunc = SetFireToBoxes
 
 
 o=Bladex.CreateEntity("BKBox4","Caja_i_r",-89856.102240,-6069.592918,20357.480459)
-o.Static=0
+# o.Static=0
 o.Scale=1.220190
 o.Orientation=0.426344,0.416480,0.562629,-0.572909
 o.CastShadows=0
@@ -67,7 +67,7 @@ o.UseFunc = SetFireToBoxes
 
 
 o=Bladex.CreateEntity("BKBox5","Caja_i_r",-90309.379150,-5241.130677,18348.379159)
-o.Static=0
+# o.Static=0
 o.Scale=1.596263
 o.Orientation=0.567310,0.422235,-0.417931,-0.570273
 o.CastShadows=0
@@ -107,8 +107,8 @@ for i in range(96):
 
 Bladex.AddCombustionDataFor("Knight_Traitor", "Fire", 250, 400, 4, 0.5, 1, 25)
 
-#Bladex.LoadSampledAnimation("../../Anm/Tkn_burn.bmv","Tkn_burn",1,"Knight_Traitor")
-#Bladex.LoadSampledAnimation("../../Anm/Tkn_dth_burn.bmv","Tkn_dth_burn",0,"Knight_Traitor")
+Bladex.LoadSampledAnimation("../../Anm/Tkn_burn.bmv","Tkn_burn",1,"Knight_Traitor")
+Bladex.LoadSampledAnimation("../../Anm/Tkn_dth_burn.bmv","Tkn_dth_burn",0,"Knight_Traitor")
 
 
 
@@ -143,8 +143,8 @@ BKnightScream.MaxDistance = 10000
 
 enric=Bladex.CreateEntity("Robin","Knight_Traitor",-86250, -3800, 19000,"Person")
 enric.Angle=1.2
-#enric.ActionAreaMin=0
-#enric.ActionAreaMax=0
+enric.ActionAreaMin=0
+enric.ActionAreaMax=0
 enric.Data = def_class.BurningKnight (enric)
-#enric.AddAnimSound('Tkn_dth_burn', BKnightScream, 10)
+enric.AddAnimSound('Tkn_dth_burn', BKnightScream, 10)
 enric.SetOnFloor()

@@ -8,7 +8,7 @@ import BurningKnights
 
 execfile("SleepingKnights.py")
 execfile("TalkingKnights.py")
-#execfile("BurningKnights.py")
+execfile("BurningKnights.py")
 
 import Sparks
 import Actions
@@ -99,7 +99,7 @@ sencos2.OnEnter=ApareceCosita2
 
 
 
-#caballero traidor 3, estático en almacén junto alcantarillas
+#caballero traidor 3, estï¿½tico en almacï¿½n junto alcantarillas
 
 Gladius=Bladex.CreateEntity("RagnarGladius3","Gladius",0,0,0,"Weapon")
 ItemTypes.ItemDefaultFuncs(Gladius)

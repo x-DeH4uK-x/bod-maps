@@ -15,15 +15,15 @@ import ItemTypes
 o=Bladex.CreateEntity("zoc1","ZocaloSuelo",-123510.991437,3710.105167,-98732.730845,"Physic")
 o.Scale=2.026831
 o.Orientation=0.707107,-0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("zoc2","ZocaloSuelo",-119250.991437,3710.105167,-98732.730845,"Physic")
 o.Scale=2.026831
 o.Orientation=0.707107,-0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 ###########################
 #####adoquines pulsadores invisibles
@@ -241,15 +241,15 @@ o.Alpha = 0
 o=Bladex.CreateEntity("NoName0","Vigaro1",-76962.648000,2958.930000,78964.017000,"Physic")
 o.Scale=1.160969
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Vigaro1",-80146.788000,2840.566000,77340.920000,"Physic")
 o.Scale=1.138093
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 rej7=Bladex.CreateEntity("Rej7","Reja",-111712.650000,2187.333000,69200.916000,"Physic")
@@ -263,29 +263,29 @@ o.Scale=1.208109
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (20.000000,0.10000,(255,175,87)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Polea",-94771.641000,-12725.546000,71099.341000,"Physic")
 o.Scale=1.694466
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Cuerda",-94788.089000,-11877.454000,70242.607000,"Physic")
 o.Scale=0.951466
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Roca1Aurelio",-125995.726000,17683.468000,49025.515000,"Physic")
 o.Scale=2.173037
 o.Orientation=0.762153,0.300220,-0.533666,0.210216
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -294,15 +294,15 @@ o.Orientation=0.762153,0.300220,-0.533666,0.210216
 o=Bladex.CreateEntity("NoName0","Vigaro2",-122912.910000,-10056.400000,55232.011000,"Physic")
 o.Scale=0.720103
 o.Orientation=0.459229,0.459229,0.537688,-0.537688
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Vigaro1",-121923.897000,-9169.846000,55142.741000,"Physic")
 o.Scale=0.528971
 o.Orientation=0.893265,-0.054634,0.035008,-0.444822
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -331,8 +331,8 @@ o.Scale=1.361327
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 7 ]
 o.Lights=[ (30.000000,0.070000,(255,142,17)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Lamparatecho",-83480.841000,-8891.878000,46913.238000,"Physic")
@@ -340,8 +340,8 @@ o.Scale=1.208109
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 12 ]
 o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -349,22 +349,22 @@ o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
 o=Bladex.CreateEntity("NoName4","Cuerda",-83470.548000,-9741.384000,46912.540000,"Physic")
 o.Scale=0.923483
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName5","Cuerda",-83473.653000,-11193.373000,46919.189000,"Physic")
 o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName6","Cuerda",-83470.412000,-12190.010000,46924.259000,"Physic")
 o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -384,8 +384,8 @@ o.Scale=1.402577
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (30.000000,0.900000,(255,165,64)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Hoguera",-80068.409000,-3230.580000,28564.904000,"Physic")
@@ -393,8 +393,8 @@ o.Scale=1.834864
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (10.000000,0.031250,(206,92,0)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -403,22 +403,22 @@ o.Scale=2.548057
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (25.000000,0.031250,(249,131,0)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Amuleto",-100419.809000,-13123.632000,8680.694000,"Physic")
 o.Scale=3.140205
 o.Orientation=0.999962,0.008727,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Cuerda",-100479.084000,-11793.759000,8675.964000,"Physic")
 o.Scale=1.711410
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 rej10=Bladex.CreateEntity("Rej10","Reja",-161624.874000,9750.631000,65510.990000,"Physic")
@@ -451,8 +451,8 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 11 ]
 o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 can3=Bladex.CreateEntity("Can3","Candelabro",-108182.480000,-1060.742000,12685.552000,"Physic")
@@ -500,8 +500,8 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 10 ]
 o.Lights=[ (0.000000,0.031250,(134,243,255)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName12","Velon",-107012.123000,-964.000000,12744.525000,"Physic")
@@ -509,8 +509,8 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 12 ]
 o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName13","Velon",-101761.013000,-779.154000,12419.447000,"Physic")
@@ -518,8 +518,8 @@ o.Scale=1.000000
 o.Orientation=0.710103,0.701985,-0.050617,0.020217
 o.FiresIntensity=[ 6 ]
 o.Lights=[ (0.000000,0.031250,(255,165,66)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -529,8 +529,8 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (3.000000,0.031250,(183,253,255)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -542,15 +542,15 @@ o.Scale=3.171607
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (20.000000,0.031250,(255,162,36)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Vigaro1",-107216.575000,-23221.088000,-39841.132000,"Physic")
 o.Scale=2.353088
 o.Orientation=0.513069,-0.495465,0.486892,-0.504192
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Farol2",-113443.159000,-3127.287000,-78359.457000,"Physic")
@@ -558,29 +558,29 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (15.000000,0.400000,(255,166,68)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Monjespada",-126443.785000,-5210.966000,8744.171000,"Physic")
 o.Scale=2.678033
 o.Orientation=0.500000,0.500000,-0.500000,0.500000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Monjespada",-125449.346000,-6431.841000,10707.757000,"Physic")
 o.Scale=2.958216
 o.Orientation=0.580552,0.611774,-0.369853,0.389743
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Monjespada",-125460.390000,-6463.633000,7033.990000,"Physic")
 o.Scale=2.928926
 o.Orientation=0.328029,0.377355,-0.568164,0.653598
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Lamparatecho",-120608.909000,-9327.543000,8665.024000,"Physic")
@@ -588,15 +588,15 @@ o.Scale=2.067571
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (20.000000,0.031250,(219,115,0)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Roca1Aurelio",-82642.817000,4361.435000,-75757.932000,"Physic")
 o.Scale=2.731862
 o.Orientation=0.694088,-0.097548,0.706309,0.099265
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -605,29 +605,29 @@ o.Orientation=0.694088,-0.097548,0.706309,0.099265
 o=Bladex.CreateEntity("NoName1","Cuerda",-86627.811000,-12603.043000,9363.993000,"Physic")
 o.Scale=2.238882
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Cuerda",-86627.450000,-15923.413000,9365.026000,"Physic")
 o.Scale=2.238882
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Viga",-111957.208000,-6488.424000,-46126.729000,"Physic")
 o.Scale=2.216715
 o.Orientation=0.500000,0.500000,-0.500000,0.500000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Viga",-112188.254000,-6282.441000,-43395.998000,"Physic")
 o.Scale=2.731862
 o.Orientation=0.500000,0.500000,-0.500000,0.500000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -647,22 +647,22 @@ Sparks.SetMetalSparkling("Rej12")
 o=Bladex.CreateEntity("NoName9","Varillaancha",-93559.171000,-10112.208000,36925.422000,"Physic")
 o.Scale=0.555954
 o.Orientation=0.504344,0.504344,-0.495618,-0.495618
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName10","Cuerda",-83757.244000,-12230.419000,39538.507000,"Physic")
 o.Scale=1.138093
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName11","Cuerda",-83757.244000,-10440.419000,39538.507000,"Physic")
 o.Scale=1.138093
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Farol2",-108931.999000,-1974.360000,-86259.390000,"Physic")
@@ -670,14 +670,14 @@ o.Scale=1.220190
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (5.000000,0.031250,(177,250,254)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 o=Bladex.CreateEntity("NoName0","Tronco",-113367.691000,-4647.138000,-77822.724000,"Physic")
 o.Scale=2.047099
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -685,22 +685,22 @@ o.Orientation=0.707107,0.707107,0.000000,0.000000
 o=Bladex.CreateEntity("NoName2","Cuerda",-113434.792000,-4107.310000,-78405.280000,"Physic")
 o.Scale=0.905287
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Cuerda",-108920.019000,-3199.766000,-86289.381000,"Physic")
 o.Scale=1.308209
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName6","Cuerda",-120601.536000,-11763.782000,8672.631000,"Physic")
 o.Scale=1.533978
 o.Orientation=0.425547,0.425547,0.564721,-0.564721
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 rej13=Bladex.CreateEntity("Rej13","Reja",-99879.256000,2145.429000,-99642.975000,"Physic")
@@ -724,8 +724,8 @@ Sparks.SetMetalSparkling("Rej15")
 o=Bladex.CreateEntity("NoName3","Roca1Aurelio",-69924.092000,25005.126000,-64139.908000,"Physic")
 o.Scale=8.838547
 o.Orientation=0.930418,0.366501,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 """
 
 
@@ -737,8 +737,8 @@ o.Scale=2.047099
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (20.000000,0.170000,(255,156,47)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Lamparatecho",-140972.664000,-2586.927000,-91622.137000,"Physic")
@@ -746,23 +746,23 @@ o.Scale=2.151522
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (20.000000,0.200000,(255,166,68)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
 o=Bladex.CreateEntity("NoName5","Amuleto",-142682.915000,-20290.943000,-95203.433000,"Physic")
 o.Scale=2.109128
 o.Orientation=0.999391,-0.034899,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName6","Roca1Aurelio",-115992.073000,5750.621000,-90268.399000,"Physic")
 o.Scale=2.759181
 o.Orientation=0.917060,0.398749,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Lamparatecho",-134168.948000,-16625.767000,-111642.927000,"Physic")
@@ -770,43 +770,43 @@ o.Scale=1.518790
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (10.000000,0.170000,(255,135,2)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName5","Vigaro1",-127517.599000,8256.864000,-102517.457000,"Physic")
 o.Scale=1.000000
 o.Orientation=0.463904,0.463904,0.533660,-0.533660
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName6","Vigaro1",-127664.593000,7981.262000,-94795.611000,"Physic")
 o.Scale=1.000000
 o.Orientation=0.459229,0.459229,0.537688,-0.537688
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName7","Vigaro1",-121699.511000,9464.109000,-89367.310000,"Physic")
 o.Scale=1.503752
 o.Orientation=0.170033,0.121892,-0.447130,0.869659
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName8","Vigaro1",-126593.423000,10126.342000,-89774.887000,"Physic")
 o.Scale=1.295256
 o.Orientation=0.049325,0.049325,0.705384,-0.705384
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName9","Roca1Aurelio",-131178.184000,20540.392000,-111555.694000,"Physic")
 o.Scale=2.987797
 o.Orientation=0.800235,-0.307181,0.480829,0.184573
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName8","Braseroarana",-123394.011000,-5903.310000,-91629.323000,"Physic")
@@ -814,8 +814,8 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (20.000000,0.070000,(255,149,32)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -827,8 +827,8 @@ o.Scale=1.093685
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (10.000000,0.031250,(255,151,36)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Farol2",-133271.291000,-5480.563000,-100290.563000,"Physic")
@@ -836,22 +836,22 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (10.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Varillaancha",-133587.574000,-13430.817000,-101326.523000,"Physic")
 o.Scale=0.632728
 o.Orientation=0.495618,0.495618,-0.504344,-0.504344
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Cuerda",-87064.015000,-4606.380000,-18571.672000,"Physic")
 o.Scale=1.947745
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Lamparatecho",-87064.015000,-2576.380000,-18571.672000,"Physic")
@@ -859,8 +859,8 @@ o.Scale=1.947745
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (15.000000,0.031250,(255,168,72)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -884,15 +884,15 @@ o.Scale=2.497850
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (30.000000,0.100000,(255,147,28)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName9","Cuerda",-124703.582000,-19280.285000,-101919.426000,"Physic")
 o.Scale=2.261271
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Farol2",-132541.796000,-18023.518000,-101373.075000,"Physic")
@@ -900,8 +900,8 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (10.000000,0.031250,(255,146,26)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Lamparatecho",-141721.227000,-25858.273000,-109995.551000,"Physic")
@@ -909,22 +909,22 @@ o.Scale=1.763268
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (20.000000,0.260000,(255,145,21)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Cuerda",-141721.227000,-26778.273000,-109995.551000,"Physic")
 o.Scale=1.763268
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName5","Cuerda",-124764.636000,-27227.805000,-110061.642000,"Physic")
 o.Scale=1.445076
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName6","Lamparatecho",-124764.636000,-26157.805000,-110061.642000,"Physic")
@@ -932,8 +932,8 @@ o.Scale=1.445076
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (20.000000,0.070000,(173,112,29)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Farol2",-131104.620000,-23329.508000,-100923.999000,"Physic")
@@ -941,29 +941,29 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (7.000000,0.031250,(255,153,40)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Varillaancha",-131118.520000,-24293.734000,-100959.744000,"Physic")
 o.Scale=0.433516
 o.Orientation=0.495618,0.495618,-0.504344,-0.504344
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Varillaancha",-124728.280000,-28115.146000,-104712.890000,"Physic")
 o.Scale=1.334504
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Varillaancha",-141661.643000,-27081.772000,-100400.633000,"Physic")
 o.Scale=1.220190
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName5","Lampcolg",-141699.174000,-26603.158000,-100363.734000,"Physic")
@@ -971,8 +971,8 @@ o.Scale=1.269735
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (10.000000,0.200000,(255,162,57)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -986,8 +986,8 @@ o.Lights=[ (10.000000,0.200000,(255,162,57)) ]
 o=Bladex.CreateEntity("NoName2","Varillaancha",-132552.956000,-19152.589000,-101404.299000,"Physic")
 o.Scale=0.584313
 o.Orientation=0.491198,0.491198,-0.508650,-0.508650
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Lamparatecho",-125569.285000,-9029.787000,-108668.778000,"Physic")
@@ -995,8 +995,8 @@ o.Scale=1.488864
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (10.000000,0.270000,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Lamparatecho",-141005.932000,-9135.706000,-108655.498000,"Physic")
@@ -1004,8 +1004,8 @@ o.Scale=1.459527
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (10.000000,0.270000,(255,143,19)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1055,8 +1055,8 @@ o.Scale=1.488864
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (10.000000,0.200000,(255,149,32)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Lamparatecho",-120487.510000,-37041.250000,-113608.876000,"Physic")
@@ -1064,29 +1064,29 @@ o.Scale=1.257163
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (5.000000,0.100000,(255,146,26)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Tapiz2",-134859.019000,-15807.643000,-106303.532000,"Physic")
 o.Scale=1.269735
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Tapiz3",-132319.667000,-15763.147000,-106324.353000,"Physic")
 o.Scale=1.282432
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 #o=Bladex.CreateEntity("NoName6","Vigaro1",-134877.966000,-42531.090000,-111582.127000,"Physic")
 #o.Scale=2.306723
 #o.Orientation=0.390731,0.920505,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Farol2",-133351.558000,-28928.987000,-101296.615000,"Physic")
@@ -1094,29 +1094,29 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (7.000000,0.031250,(255,174,85)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Varillaancha",-133368.178000,-29568.785000,-101308.084000,"Physic")
 o.Scale=0.545000
 o.Orientation=0.491198,0.491198,-0.508650,-0.508650
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName9","Garfio2",-133279.754000,-5985.575000,-100290.775000,"Physic")
 o.Scale=1.000000
 o.Orientation=0.055479,0.055479,-0.704927,0.704927
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName10","Viga",-133285.193000,-5914.011000,-99833.637000,"Physic")
 o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1126,15 +1126,15 @@ o.Scale=1.361327
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (30.000000,0.070000,(255,151,36)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName14","Cuerda",-122411.208000,-4308.586000,-34280.290000,"Physic")
 o.Scale=1.361327
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Farol2",-82544.879000,-9512.261000,-38496.446000,"Physic")
@@ -1142,22 +1142,22 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (5.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Varillaancha",-82546.408000,-10516.153000,-38522.990000,"Physic")
 o.Scale=0.539604
 o.Orientation=0.500000,0.500000,-0.500000,-0.500000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Varillaancha",-75030.557000,-4682.054000,-30358.936000,"Physic")
 o.Scale=0.727304
 o.Orientation=0.500000,0.500000,-0.500000,-0.500000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Farol2",-75080.557000,-3282.054000,-30348.936000,"Physic")
@@ -1165,8 +1165,8 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (5.000000,0.031250,(255,169,74)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1174,8 +1174,8 @@ o.Lights=[ (5.000000,0.031250,(255,169,74)) ]
 o=Bladex.CreateEntity("NoName2","Roca1Aurelio",-159954.419000,11802.635000,16961.380000,"Physic")
 o.Scale=1.853212
 o.Orientation=0.948324,-0.317305,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1187,8 +1187,8 @@ o.Scale=1.728525
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 3 ]
 o.Lights=[ (15.000000,0.20000,(255,156,47)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1198,8 +1198,8 @@ o.Lights=[ (15.000000,0.20000,(255,156,47)) ]
 o=Bladex.CreateEntity("NoName2","Roca1Aurelio",-133566.766000,6064.177000,32258.877000,"Physic")
 o.Scale=1.172579
 o.Orientation=0.564863,-0.099601,0.806707,0.142244
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1209,8 +1209,8 @@ o.Orientation=0.564863,-0.099601,0.806707,0.142244
 o=Bladex.CreateEntity("NoName0","Cubo",-112193.503000,8780.941000,83742.553000,"Physic")
 o.Scale=1.000000
 o.Orientation=0.289526,0.040690,-0.955722,-0.033375
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1223,15 +1223,15 @@ tab1.Orientation=0.602263,0.093429,-0.785597,0.106714
 o=Bladex.CreateEntity("NoName1","Viga",-102472.049000,3553.616000,-69541.229000,"Physic")
 o.Scale=2.109128
 o.Orientation=0.018510,0.018510,-0.706864,0.706864
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Viga",-106325.884000,3618.987000,-69657.034000,"Physic")
 o.Scale=2.151522
 o.Orientation=0.018510,0.018510,-0.706864,0.706864
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1265,8 +1265,8 @@ Sparks.SetMetalSparkling("Ras4")
 #o=Bladex.CreateEntity("NoName1","Vigaro1",-134660.944000,-50452.611000,-105767.833000,"Physic")
 #o.Scale=2.497850
 #o.Orientation=0.968148,-0.250380,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1276,8 +1276,8 @@ Sparks.SetMetalSparkling("Ras4")
 #o=Bladex.CreateEntity("NoName0","Vigaro1",-138190.706000,-41631.097000,-95496.094000,"Physic")
 #o.Scale=1.474123
 #o.Orientation=0.017399,-0.996765,-0.078447,-0.001369
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1285,29 +1285,29 @@ Sparks.SetMetalSparkling("Ras4")
 #o=Bladex.CreateEntity("NoName0","Vigaro1",-133679.496000,-38180.441000,-95759.442000,"Physic")
 #o.Scale=1.503752
 #o.Orientation=0.121869,-0.992546,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 #o=Bladex.CreateEntity("NoName1","Vigaro1",-126097.481000,-36601.682000,-89695.639000,"Physic")
 #o.Scale=1.000000
 #o.Orientation=0.662620,-0.748956,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 #o=Bladex.CreateEntity("NoName2","Vigaro1",-131919.624000,-36515.070000,-89527.911000,"Physic")
 #o.Scale=1.000000
 #o.Orientation=0.662620,-0.748956,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Varillaancha",-131932.811000,-36657.227000,-90017.379000,"Physic")
 o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 rej16=Bladex.CreateEntity("Rej16","Reja",-103228.305000,-11785.363000,39197.878000,"Physic")
@@ -1319,23 +1319,23 @@ Sparks.SetMetalSparkling("Rej16")
 o=Bladex.CreateEntity("NoName1","Viga",-107172.239000,-24208.907000,37912.348000,"Physic")
 o.Scale=4.675337
 o.Orientation=0.508650,0.508650,-0.491198,0.491198
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Viga",-106389.774000,-24455.633000,41619.269000,"Physic")
 o.Scale=4.027099
 o.Orientation=0.521334,0.521334,-0.477714,0.477714
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
 o=Bladex.CreateEntity("NoName0","Reja",-89163.321000,-7812.105000,47205.168000,"Physic")
 o.Scale=2.400385
 o.Orientation=0.495618,0.495618,0.504344,-0.504344
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1354,8 +1354,8 @@ Sparks.SetMetalSparkling("Ras5")
 o=Bladex.CreateEntity("NoName3","Reja",-114890.192000,9071.480000,82257.153000,"Physic")
 o.Scale=1.334504
 o.Orientation=0.999962,0.008727,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1364,8 +1364,8 @@ o.Orientation=0.999962,0.008727,0.000000,0.000000
 o=Bladex.CreateEntity("NoName2","Reja",-101558.187000,-4810.465000,46884.039000,"Physic")
 o.Scale=2.424389
 o.Orientation=1.000000,0.000000,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1373,8 +1373,8 @@ o.Orientation=1.000000,0.000000,0.000000,0.000000
 o=Bladex.CreateEntity("NoName0","Roca1Aurelio",-115106.039000,4609.818000,53795.798000,"Physic")
 o.Scale=1.149474
 o.Orientation=0.621418,0.621418,0.337402,-0.337402
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1389,8 +1389,8 @@ Sparks.SetMetalSparkling("Ras6")
 #o=Bladex.CreateEntity("NoName1","",-128506.556000,-9010.295000,60361.028000,"Physic")
 #o.Scale=2.814640
 #o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 ras7=Bladex.CreateEntity("Ras7","Rastrillo",-118159.206000,-416.182000,69302.137000,"Physic")
@@ -1402,43 +1402,43 @@ Sparks.SetMetalSparkling("Ras7")
 o=Bladex.CreateEntity("NoName3","Varillaancha",-126199.489000,892.060000,60559.480000,"Physic")
 o.Scale=3.078330
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Varillaancha",-125911.404000,-290.452000,60364.893000,"Physic")
 o.Scale=2.928926
 o.Orientation=0.713250,0.700909,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName0","Varillaancha",-129926.626000,-33263.683000,-115758.862000,"Physic")
 o.Scale=2.651518
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Caliz",-83281.716000,-6399.714000,37282.265000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.701752,0.683614,0.161187,-0.119311
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Caliz",-83451.344000,-6411.821000,37904.904000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.354868,0.688562,0.361812,0.518693
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Caliz",-83818.450000,-6396.275000,39141.647000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.698754,0.692993,0.123860,-0.127131
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName5","Candelpeque",-83994.283000,-6573.909000,36914.059000,"Physic")
@@ -1446,43 +1446,43 @@ o.Scale=1.000000
 o.Orientation=0.706062,0.708035,0.010720,-0.006925
 o.FiresIntensity=[ 14 ]
 o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName6","Mortero",-83949.907000,-6650.553000,54306.807000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName7","Mortero",-84452.283000,-6681.608000,54085.405000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.228171,0.816410,-0.529826,0.026417
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName8","Cazo",-83815.106000,-6677.493000,53897.541000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.852931,0.500386,-0.121225,0.086182
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName11","Caliz",-83569.204000,-6394.254000,39555.714000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.709960,0.703571,0.023895,-0.019348
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName12","Cuchillo",-83317.390000,-6409.049000,38873.681000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.434639,0.900047,0.016921,0.026798
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName13","Palangana",-83933.104000,-6446.048000,38004.481000,"Physic")
@@ -1490,50 +1490,50 @@ o.Scale=1.000000
 o.Orientation=0.714709,0.699015,0.012852,-0.020099
 o.FiresIntensity=[ 41 ]
 o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName14","Tronco",-82882.050000,-5388.191000,54123.958000,"Physic")
 o.Scale=0.811430
 o.Orientation=0.704378,0.700160,-0.085147,-0.079856
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName15","Tronco",-83086.161000,-5365.169000,54135.310000,"Physic")
 o.Scale=0.741923
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName16","Tronco",-82998.020000,-5553.169000,54145.568000,"Physic")
 o.Scale=0.795442
 o.Orientation=0.704818,0.699598,0.080516,0.085509
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName17","Tronco",-82667.010000,-5338.198000,54184.790000,"Physic")
 o.Scale=0.741923
 o.Orientation=0.350165,0.353545,-0.616227,-0.610454
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName18","Tronco",-82754.411000,-5535.018000,54171.505000,"Physic")
 o.Scale=0.741923
 o.Orientation=0.693668,0.689421,-0.153352,-0.141442
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName19","Tronco",-82856.414000,-5685.284000,54142.576000,"Physic")
 o.Scale=0.741923
 o.Orientation=0.685747,0.685437,-0.177834,-0.168231
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName20","Palangana",-84161.751000,-6448.760000,39888.848000,"Physic")
@@ -1541,50 +1541,50 @@ o.Scale=1.000000
 o.Orientation=0.720104,0.693326,0.021944,-0.016377
 o.FiresIntensity=[ 26 ]
 o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName21","Femur",-113673.073000,8977.261000,83561.594000,"Weapon")
 o.Scale=1.051010
 o.Orientation=0.044825,0.913039,-0.071148,-0.399109
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName22","Femur",-114858.533000,8979.738000,83478.221000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.026234,0.938915,-0.018931,-0.342625
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName23","Femur",-114303.578000,8976.159000,83965.043000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.013527,0.821976,0.011310,-0.569249
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName24","Skull",-113666.278000,8900.937000,83880.435000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.758612,0.021883,-0.142220,0.635455
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName25","Skull",-113644.604000,8887.987000,84851.060000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.308649,0.678417,-0.560941,-0.360322
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName27","Varillaancha",-137373.995000,-33334.664000,-115698.348000,"Physic")
 o.Scale=2.522829
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName1","Lamparatecho",-94741.241000,-2789.847000,-74951.352000,"Physic")
@@ -1592,15 +1592,15 @@ o.Scale=1.474123
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 0 ]
 o.Lights=[ (20.000000,0.031250,(255,167,70)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Cuerda",-94741.241000,-4879.847000,-74931.352000,"Physic")
 o.Scale=1.474123
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1618,8 +1618,8 @@ ala3.Orientation=0.089400,-0.492165,0.686857,0.527266
 o=Bladex.CreateEntity("NoName18","Tapiz2",-125870.993000,-1953.974000,-21432.475000,"Physic")
 o.Scale=1.564811
 o.Orientation=0.495618,0.495618,-0.504344,0.504344
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1628,8 +1628,8 @@ o.Orientation=0.495618,0.495618,-0.504344,0.504344
 o=Bladex.CreateEntity("NoName28","Tapiz3",-125809.236000,-1988.213000,-27407.419000,"Physic")
 o.Scale=1.661078
 o.Orientation=0.495618,0.495618,-0.504344,0.504344
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1638,29 +1638,29 @@ o.Orientation=0.495618,0.495618,-0.504344,0.504344
 o=Bladex.CreateEntity("NoName3","Femur",-98398.500000,8974.017000,83434.896000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.072258,0.987150,-0.091710,0.109097
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Femur",-98287.359000,8979.608000,83946.740000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.038617,0.956892,-0.091103,-0.273070
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName5","Femur",-98842.815000,8976.739000,82870.209000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.004289,0.481403,-0.044739,-0.875346
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName6","Femur",-97805.741000,8978.459000,83566.328000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.035036,0.947924,-0.030363,-0.315105
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 rej1=Bladex.CreateEntity("Rej1","Reja",-88690.094000,12974.865000,81888.668000,"Physic")
@@ -1689,8 +1689,8 @@ o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 16 ]
 o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Candelpeque",-124401.753000,-23275.968000,-112610.646000,"Physic")
@@ -1698,15 +1698,15 @@ o.Scale=1.000000
 o.Orientation=0.624338,0.624338,0.331967,-0.331967
 o.FiresIntensity=[ 24 ]
 o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Skull",-123826.544000,-23122.405000,-112448.701000,"Weapon")
 o.Scale=1.000000
 o.Orientation=0.708434,0.152872,0.562971,-0.397260
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 tab2=Bladex.CreateEntity("tab2","Taburete",-123645.828000,-22352.917000,-111828.643000,"Weapon")
@@ -1720,8 +1720,8 @@ o.Scale=1.000000
 o.Orientation=0.609264,0.609264,0.358884,-0.358884
 o.FiresIntensity=[ 26 ]
 o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1731,29 +1731,29 @@ o.Lights=[ (0.000000,0.031250,(255,196,128)) ]
 o=Bladex.CreateEntity("NoName3","Peanapiedra",-140494.277000,-14376.629000,-91202.618000,"Physic")
 o.Scale=3.078330
 o.Orientation=0.018510,0.018510,0.706864,-0.706864
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Peanapiedra",-145027.417000,-14356.009000,-91304.744000,"Physic")
 o.Scale=2.987797
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName5","Peanapiedra",-140465.654000,-14372.596000,-105981.087000,"Physic")
 o.Scale=3.171607
 o.Orientation=0.006164,0.006171,-0.707080,0.707080
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName6","Peanapiedra",-145008.502000,-14343.112000,-106019.553000,"Physic")
 o.Scale=3.171607
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1801,29 +1801,29 @@ o.Scale=3.171607
 o.Orientation=0.707107,0.707107,0.000000,0.000000
 o.FiresIntensity=[ 0 ]
 o.Lights=[ (60.000000,0.800000,(215,157,38)) ]
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Cuerda",-135363.553918,-50614.819674,-100125.254324,"Physic")
 o.Scale=3.109114
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Cuerda",-135363.553918,-45994.819674,-100125.254324,"Physic")
 o.Scale=3.109114
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName5","Cuerda",-135363.553918,-42904.819674,-100125.254324,"Physic")
 o.Scale=3.109114
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Lamparatecho",-104561.363000,-11606.778000,-44727.915000,"Physic")
@@ -1836,36 +1836,36 @@ o.Lights=[ (50.000000,0.031250,(255,163,60)) ]
 o=Bladex.CreateEntity("NoName0","Piedra_01",-112239.012146,8608.827782,58051.704812,"Physic")
 o.Scale=1.000000
 o.Orientation=0.972061,-0.092587,-0.185017,0.110880
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName2","Piedra_03",-111815.157091,8577.901603,57630.278751,"Physic")
 o.Scale=1.000000
 o.Orientation=0.652072,0.753405,-0.038049,-0.075724
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName3","Piedra_04",-114431.363696,11544.710876,57096.747510,"Physic")
 o.Scale=0.665003
 o.Orientation=0.663146,0.660125,0.106380,-0.336385
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName4","Piedra_05",-112665.621989,8639.338104,57101.508079,"Physic")
 o.Scale=0.523734
 o.Orientation=0.693788,0.719920,-0.016775,-0.009586
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName6","Piedra_07",-113018.671624,8601.179849,58623.427285,"Physic")
 o.Scale=0.285435
 o.Orientation=0.640897,0.763741,-0.016577,0.075339
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -1880,99 +1880,99 @@ o.Solid=0
 o=Bladex.CreateEntity("NoName7","Tabla_rota",-111696.096607,8136.066033,55815.372179,"Physic")
 o.Scale=1.000000
 o.Orientation=0.685267,0.169235,-0.158193,0.690466
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName9","Tabla_rota",-113355.731109,8665.081773,56437.393471,"Physic")
 o.Scale=1.000000
 o.Orientation=0.666038,0.663360,0.238270,-0.244077
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName10","Tabla_xl",-109495.260916,8197.130720,57625.283704,"Physic")
 o.Scale=1.947745
 o.Orientation=0.421872,0.563641,0.578259,-0.412248
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName11","Piedra_07",-114530.531668,11582.132202,57704.720061,"Physic")
 o.Scale=0.344836
 o.Orientation=0.603408,0.781960,-0.054330,0.146580
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName13","Piedra_05",-114036.733617,11644.126390,58665.198867,"Physic")
 o.Scale=0.503298
 o.Orientation=0.660738,0.748308,-0.051852,-0.027789
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName14","Tabla_xl",-114996.328251,10927.342625,56082.203126,"Physic")
 o.Scale=1.196147
 o.Orientation=0.616184,0.618055,-0.342047,-0.348323
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName15","Tabla_rota",-116979.667824,11652.614184,56308.685250,"Physic")
 o.Scale=1.000000
 o.Orientation=0.707107,0.707107,0.000000,0.000000
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName16","Tabla_rota",-117421.303939,11573.467945,55854.354348,"Physic")
 o.Scale=1.644632
 o.Orientation=0.311128,0.352925,0.634447,-0.613287
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName17","Piedra_08",-75300.724981,8879.037402,70374.886332,"Physic")
 o.Scale=0.341422
 o.Orientation=0.519617,0.341887,0.124062,0.773124
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName18","Piedra_07",-74972.405940,8862.316946,71546.458018,"Physic")
 o.Scale=0.392456
 o.Orientation=0.622688,0.780190,0.034660,0.048594
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName19","Piedra_07",-74525.408827,8906.788940,70907.336410,"Physic")
 o.Scale=0.285435
 o.Orientation=0.566140,0.702910,0.267252,-0.337608
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName20","Piedra_03",-77626.072938,8937.738441,71874.796507,"Physic")
 o.Scale=0.455629
 o.Orientation=0.644769,0.760889,-0.059192,-0.042633
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName21","Tabla_rota",-76586.597180,8928.603424,72385.881297,"Physic")
 o.Scale=1.834864
 o.Orientation=0.653282,0.653282,0.270598,-0.270598
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 o=Bladex.CreateEntity("NoName22","Tabla_xl",-72403.360987,7498.606720,72622.663751,"Physic")
 o.Scale=1.402577
 o.Orientation=0.705537,-0.152435,-0.054856,-0.689907
-#o.NodesOrientation=?  En la siguiente versión
-#o.Scripts=?  En la siguiente versión
+#o.NodesOrientation=?  En la siguiente versiï¿½n
+#o.Scripts=?  En la siguiente versiï¿½n
 
 
 
@@ -3322,17 +3322,17 @@ o.Orientation=0.579228,0.579228,0.405580,-0.405580
 
 
 
-o=Bladex.CreateEntity("CajaPat1","Caja_i_i",-88178.748164,-3306.217858,17769.659430)
-o.Scale=1.890462
-o.Orientation=0.454519,0.454519,-0.541675,0.541675
+# o=Bladex.CreateEntity("CajaPat1","Caja_i_i",-88178.748164,-3306.217858,17769.659430)
+# o.Scale=1.890462
+# o.Orientation=0.454519,0.454519,-0.541675,0.541675
 
-o=Bladex.CreateEntity("CajaPat2","Caja_i_i",-87621.944072,-3375.219052,19705.380543)
-o.Scale=2.047099
-o.Orientation=0.477714,0.477714,0.521334,-0.521334
+# o=Bladex.CreateEntity("CajaPat2","Caja_i_i",-87621.944072,-3375.219052,19705.380543)
+# o.Scale=2.047099
+# o.Orientation=0.477714,0.477714,0.521334,-0.521334
 
-o=Bladex.CreateEntity("CajaPat3","Caja_i_i",-87538.605178,-5122.105681,19807.039904)
-o.Scale=2.306723
-o.Orientation=0.999756,-0.000162,-0.021636,-0.004450
+# o=Bladex.CreateEntity("CajaPat3","Caja_i_i",-87538.605178,-5122.105681,19807.039904)
+# o.Scale=2.306723
+# o.Orientation=0.999756,-0.000162,-0.021636,-0.004450
 
 
 
