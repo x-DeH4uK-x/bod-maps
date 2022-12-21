@@ -781,7 +781,7 @@ def enemyGroupOut( ax, az, ay, bx, bz, by, cx, cz, cy ) :
 		#print"primer grupo fuera"
 
 		# grupo 1 orco 1
-		if (orksInScene<2) :
+		if (orksInScene<3) :
 			orkweapon=Bladex.CreateEntity("mineg1ork1espad","Gladius",0,0,0,"Weapon")
 			shield=Bladex.CreateEntity("mineg1ork1escud","Escudo1",0,0,0)
 			Sparks.MakeShield("mineg1ork1escud")
@@ -799,7 +799,7 @@ def enemyGroupOut( ax, az, ay, bx, bz, by, cx, cz, cy ) :
 			orksInScene=orksInScene+1
 
 		# grupo 1 orco 2
-		if (orksInScene<2) :
+		if (orksInScene<3) :
 			orkweapon=Bladex.CreateEntity("mineg1ork2espad","Gladius",0,0,0,"Weapon")
 			shield=Bladex.CreateEntity("mineg1ork2escud","Escudo1",0,0,0)
 			Sparks.MakeShield("mineg1ork2escud")
@@ -817,7 +817,7 @@ def enemyGroupOut( ax, az, ay, bx, bz, by, cx, cz, cy ) :
 			orksInScene=orksInScene+1
 
 		# grupo 1 orco 3
-		if (orksInScene<2) :
+		if (orksInScene<3) :
 			orkweapon=Bladex.CreateEntity("mineg1ork3espad","Gladius",0,0,0,"Weapon")
 			shield=Bladex.CreateEntity("mineg1ork3escud","Escudo1",0,0,0)
 			Sparks.MakeShield("mineg1ork3escud")
@@ -843,7 +843,7 @@ def enemyGroupOut( ax, az, ay, bx, bz, by, cx, cz, cy ) :
 		#print"segundo grupo fuera"
 
 		# grupo 2 orco 1
-		if (orksInScene<2) :
+		if (orksInScene<3) :
 			orkweapon=Bladex.CreateEntity("mineg2ork1espad","Gladius",0,0,0,"Weapon")
 			shield=Bladex.CreateEntity("mineg2ork1escud","Escudo1",0,0,0)
 			Sparks.MakeShield("mineg2ork1escud")
@@ -861,7 +861,7 @@ def enemyGroupOut( ax, az, ay, bx, bz, by, cx, cz, cy ) :
 			orksInScene=orksInScene+1
 
 		# grupo 2 orco 2
-		if (orksInScene<2) :
+		if (orksInScene<3) :
 			orkweapon=Bladex.CreateEntity("mineg2ork2espad","Gladius",0,0,0,"Weapon")
 			shield=Bladex.CreateEntity("mineg2ork2escud","Escudo1",0,0,0)
 			Sparks.MakeShield("mineg2ork2escud")
@@ -879,7 +879,7 @@ def enemyGroupOut( ax, az, ay, bx, bz, by, cx, cz, cy ) :
 			orksInScene=orksInScene+1
 
 		# grupo 2 troll 1
-		if (orksInScene<2) :
+		if (orksInScene<3) :
 			trollweapon=Bladex.CreateEntity("mineg2TrollGarr","Garropin",0,0,0,"Weapon")
 			troll=Bladex.CreateEntity("g2Troll","Great_Ork",cx,cz,cy,"Person")
 			troll.Angle=0
@@ -902,7 +902,7 @@ def putAGroup():
 	if (tunnelAGroupOut==0) :
 		a = -38252.5290135, -31056.3535663, -36801.717
 		b = -43064.5150714, -31122.6147559, -24891.889
-		c = -42064.5150714, -31122.6147559, -24891.889
+		c = -41064.5150714, -31122.6147559, -24891.889
 		enemyGroupOut( a[0], a[1], a[2], b[0], b[1], b[2], c[0], c[1], c[2] );
 		tunnelAGroupOut =1
 
@@ -911,7 +911,7 @@ def putBGroup():
 	if (tunnelBGroupOut==0) :
 		a = -38252.5290135, -31056.3535663, -36801.717
 		b = -43064.5150714, -31122.6147559, -24891.889
-		c = -42064.5150714, -31122.6147559, -24891.889
+		c = -41064.5150714, -31122.6147559, -24891.889
 		enemyGroupOut( a[0], a[1], a[2], b[0], b[1], b[2], c[0], c[1], c[2] );
 		tunnelBGroupOut =1
 
