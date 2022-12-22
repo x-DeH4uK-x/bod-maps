@@ -54,10 +54,10 @@ o.Scale=1.000000
 o.Orientation=0.687117,0.719238,-0.082426,-0.061428
 ItemTypes.ItemDefaultFuncs (o)
 
-powp_PP=Bladex.CreateEntity("tombPWP","PowerPotion",92452.052058,8915.854084,16489.239254,"Physic")
-powp_PP.Scale=1.000000
-powp_PP.Orientation=0.363617,-0.064629,-0.927222,-0.062166
-pocimac.CreatePowerPotion("tombPWP")
+# powp_PP=Bladex.CreateEntity("tombPWP","PowerPotion",92452.052058,8915.854084,16489.239254,"Physic")
+# powp_PP.Scale=1.000000
+# powp_PP.Orientation=0.363617,-0.064629,-0.927222,-0.062166
+# pocimac.CreatePowerPotion("tombPWP")
 
 
 

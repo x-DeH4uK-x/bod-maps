@@ -49,7 +49,7 @@ EnemyTypes.EnemyDefaultFuncs(enm)
 
 
 ## orco escondido 1 junto a arquero inicial	( poner como arquero en la ventana al interior)
-"""
+
 o=Bladex.CreateEntity("TombEspada1","Gladius",0,0,0,"Weapon")
 ItemTypes.ItemDefaultFuncs (o)
 
@@ -61,7 +61,7 @@ pers.ActionAreaMin=pow(2,0)
 pers.ActionAreaMax=pow(2,1)
 EnemyTypes.EnemyDefaultFuncs(pers)
 pers.SetOnFloor()
-"""
+
 
 enm=Bladex.CreateEntity("Tombarq31", "Ork",-25858.3617258, -5626.98393693, -10415.4462398,"Person")
 enm.Angle=4.5
@@ -179,7 +179,7 @@ enm.SetOnFloor()
 
 
 #########################################################
-# orco compañero del anterior patrullando
+# orco compaï¿½ero del anterior patrullando
 ### este orco y su patrulla hacen que casque el engine
 
 saquito3orc=Bladex.CreateEntity("Saquito3orc","Saquito",0,0,0,"Physic")
@@ -225,13 +225,13 @@ EnemyTypes.EnemyDefaultFuncs(pers)
 pers.SetOnFloor()
 
 #2
-#pers=Bladex.CreateEntity("2cos","Cos",29134.0529414, 4932.89950558, -37462.6769662,"Person")
-#pers.Level=6
-#pers.Angle=1.24556715337
-#pers.ActionAreaMin=pow(2,0)
-#pers.ActionAreaMax=pow(2,1)
-#EnemyTypes.EnemyDefaultFuncs(pers)
-#pers.SetOnFloor()
+pers=Bladex.CreateEntity("2cos","Cos",29134.0529414, 4932.89950558, -37462.6769662,"Person")
+pers.Level=6
+pers.Angle=1.24556715337
+pers.ActionAreaMin=pow(2,0)
+pers.ActionAreaMax=pow(2,1)
+EnemyTypes.EnemyDefaultFuncs(pers)
+pers.SetOnFloor()
 
 #3
 pers=Bladex.CreateEntity("3cos","Cos",45402.183106, 4947.6932149, -32933.364746,"Person")
@@ -245,13 +245,13 @@ pers.SetOnFloor()
 
 
 #4
-#pers=Bladex.CreateEntity("4cos","Cos",21261.3842086, 4943.89389771, -36120.5897041,"Person")
-#pers.Level=6
-#pers.Angle=4.94579985189
-#pers.ActionAreaMin=pow(2,0)
-#pers.ActionAreaMax=pow(2,1)
-#EnemyTypes.EnemyDefaultFuncs(pers)
-#pers.SetOnFloor()
+pers=Bladex.CreateEntity("4cos","Cos",21261.3842086, 4943.89389771, -36120.5897041,"Person")
+pers.Level=6
+pers.Angle=4.94579985189
+pers.ActionAreaMin=pow(2,0)
+pers.ActionAreaMax=pow(2,1)
+EnemyTypes.EnemyDefaultFuncs(pers)
+pers.SetOnFloor()
 
 
 #5
@@ -665,7 +665,7 @@ sectx7.OnEnter=x7
 ########### ZOMBIES	 ZOMBIES	 ZOMBIES	 ZOMBIES	 ZOMBIES	 ZOMBIES
 ###########################################################################################################
 
-"""
+
 #1
 o=Bladex.CreateEntity("TombHachaZombi1","Hacha5",0,0,0,"Weapon")
 ItemTypes.ItemDefaultFuncs (o)
@@ -796,7 +796,7 @@ pers.SetOnFloor()
 pers.Data.ImDeadFuncPlus   = pers.ImDeadFunc
 pers.ImDeadFunc            = MuerteZombiDeMierda
 
-"""
+
 ## ya no hay mas zombies
 
 
@@ -806,7 +806,7 @@ pers.ImDeadFunc            = MuerteZombiDeMierda
 ####
 ## 2 keletos congelados hasta salida zona zombiesssssss
 ########################################################################
-"""
+
 #1
 o=Bladex.CreateEntity("TombKeletoaxe2","Maza",0,0,0,"Weapon")
 ItemTypes.ItemDefaultFuncs (o)
@@ -858,6 +858,6 @@ keleton3.Data.nodo_actual=0
 listaeskeletos=[keleton2, keleton3]
 
 
-"""
+
 
 

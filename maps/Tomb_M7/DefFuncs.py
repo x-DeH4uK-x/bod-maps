@@ -1217,34 +1217,34 @@ def tLaunchPersAnim() :
 	Bladex.AddScheduledFunc(Bladex.GetTime() + TUMBA_ESFUERZO2,PlaySound,(sonido_esfuerzo2,))
 
 
-#def tLaunchTombAnimStop():
-# 	tLapida.TurnOff()
-#	Bladex.AddScheduledFunc(Bladex.GetTime(), tLaunchTombAnimStopPoneStatic,())
+def tLaunchTombAnimStop():
+	tLapida.TurnOff()
+	Bladex.AddScheduledFunc(Bladex.GetTime(), tLaunchTombAnimStopPoneStatic,())
 
-#def tLaunchTombAnimStopPoneStatic():
-#	tLapida.RemoveFromWorld()
-#	tLapida2             = Bladex.CreateEntity(tLapida.Name+"1",tLapida.Kind,tLapida.Position[0],tLapida.Position[1],tLapida.Position[2],"Physic")
-#	tLapida2.Orientation = tLapida.Orientation
-#	tLapida2.Scale       = tLapida.Scale
-
-
+def tLaunchTombAnimStopPoneStatic():
+	tLapida.RemoveFromWorld()
+	tLapida2             = Bladex.CreateEntity(tLapida.Name+"1",tLapida.Kind,tLapida.Position[0],tLapida.Position[1],tLapida.Position[2],"Physic")
+	tLapida2.Orientation = tLapida.Orientation
+	tLapida2.Scale       = tLapida.Scale
 
 
 
-#def tLaunchTombAnim() :
-#	tLapida.Actor=1
-#	tLapida.Animation="Tapa_sarcofago"
-#	tLapida.SendSectorMsgs=0
-#	tLapida.TurnOn()
+
+
+def tLaunchTombAnim() :
+	tLapida.Actor=1
+	tLapida.Animation="Tapa_sarcofago"
+	tLapida.SendSectorMsgs=0
+	tLapida.TurnOn()
 	#tLapida.RotateRel(0,0,0,0,1,0,-1.57)
-#	tLapida.RotateRel(0,0,0,0,1,0,0.0001)
+	tLapida.RotateRel(0,0,0,0,1,0,0.0001)
 
 def tLaunchCamReset(camera,frame) :
 	cam=Bladex.GetEntity("Camera")
 	cam.SetPersonView("Player1")
 	cam.Cut()
 
-	ScriptSkip.SkipScriptEnd()
+	#ScriptSkip.SkipScriptEnd()
 	#Bladex.ActivateInput()
 	Scorer.SetVisible(1)
 
@@ -1255,31 +1255,31 @@ def tLaunchCamC(ent,frame) :
 	GameText.WriteText("M7T5")
 
 
-#def tLaunchCamB(ent,frame) :
-#	cam = Bladex.GetEntity("Camera")
-#	cam.SetMaxCamera("TumbaReina_Camera_heroe.cam",81,331)
-#
-#	cam.AddCameraEvent(188-81,SndPiedra)
-#	cam.AddCameraEvent(235-81,SndPiedra)
-#	cam.AddCameraEvent(281-81,SndPiedraHit)
-#	Bladex.AddScheduledFunc(Bladex.GetTime() +6.0,_SndPiedra.Stop,())
-#
-#	cam.AddCameraEvent(-1,tLaunchCamC)
+def tLaunchCamB(ent,frame) :
+	cam = Bladex.GetEntity("Camera")
+	cam.SetMaxCamera("TumbaReina_Camera_heroe.cam",81,331)
 
-#def tLaunchCamA() :
-#	cam = Bladex.GetEntity("Camera")
-#	cam.SetMaxCamera("TumbaReina_Camera_Sarcofago.cam",0,80)
-#	#cam.AddCameraEvent(5,SndDemonio4)
-#	#cam.AddCameraEvent(20,SndDemonio1)
-#	#cam.AddCameraEvent(40,SndDemonio2)
-#	#cam.AddCameraEvent(60,SndDemonio3)
-#	cam.AddCameraEvent(-1,tLaunchCamB)
+	cam.AddCameraEvent(188-81,SndPiedra)
+	cam.AddCameraEvent(235-81,SndPiedra)
+	cam.AddCameraEvent(281-81,SndPiedraHit)
+	Bladex.AddScheduledFunc(Bladex.GetTime() +6.0,_SndPiedra.Stop,())
 
-#	ScriptSkip.SkipScriptStart("EscenaFinalTumba")
-#	#Bladex.DeactivateInput()
-#	Scorer.SetVisible(0)
-#	Bladex.SetListenerPosition(1)
-#	Bladex.ExeMusicEvent(Bladex.GetMusicEvent("ttomb"))
+	cam.AddCameraEvent(-1,tLaunchCamC)
+
+def tLaunchCamA() :
+	cam = Bladex.GetEntity("Camera")
+	cam.SetMaxCamera("TumbaReina_Camera_Sarcofago.cam",0,80)
+	#cam.AddCameraEvent(5,SndDemonio4)
+	#cam.AddCameraEvent(20,SndDemonio1)
+	#cam.AddCameraEvent(40,SndDemonio2)
+	#cam.AddCameraEvent(60,SndDemonio3)
+	cam.AddCameraEvent(-1,tLaunchCamB)
+
+	#ScriptSkip.SkipScriptStart("EscenaFinalTumba")
+	#Bladex.DeactivateInput()
+	Scorer.SetVisible(0)
+	Bladex.SetListenerPosition(1)
+	Bladex.ExeMusicEvent(Bladex.GetMusicEvent("ttomb"))
 
 def MapaSiguiente() :
 	Bladex.AddScheduledFunc(Bladex.GetTime()+0.0,GotoMapVars.EndOfLevel,())
@@ -1293,31 +1293,32 @@ def fundido() :
 
 
 
-#def tLaunchB() :
-#	tLaunchCamA()
-#	tLaunchPersAnim()
-#	tLaunchTombAnim()
-#
-#
-#	Bladex.AddScheduledFunc(Bladex.GetTime()+14.0, tLaunchTombAnimStop, () )
-#	#Bladex.AddScheduledFunc(Bladex.GetTime()+40.0, fundido, () )
+def tLaunchB() :
+	tLaunchCamA()
+	tLaunchPersAnim()
+	tLaunchTombAnim()
 
 
-#def tLaunch() :
-#	char = Bladex.GetEntity("Player1")
-#	Actions.FreeBothHands("Player1")
-#	Scorer.SetVisible(0)
-#	Bladex.AddScheduledFunc(Bladex.GetTime()+2.0, tLaunchB, ())
+	Bladex.AddScheduledFunc(Bladex.GetTime()+14.0, tLaunchTombAnimStop, () )
+	#Bladex.AddScheduledFunc(Bladex.GetTime()+40.0, fundido, () )
 
-#def tGPointerInUse(gpointer,usefrom) :
-#	global tGPointerUsed
-#	if (tGPointerUsed) : return
-#	tGPointerUsed=1
-#	Qo=Bladex.CreateEntity("Qo","QueenSword",19124.809000,7393.641000,-1478.599000,"Weapon")
-#	ItemTypes.ItemDefaultFuncs (Qo)
-#	Qo.Scale=1.000000
-#	Qo.Orientation=0.708658,-0.024863,-0.698539,-0.096066
-#	tLaunch()
+
+def tLaunch() :
+	char = Bladex.GetEntity("Player1")
+	Actions.FreeBothHands("Player1")
+	Scorer.SetVisible(0)
+	Bladex.AddScheduledFunc(Bladex.GetTime()+2.0, tLaunchB, ())
+
+def tGPointerInUse(gpointer,usefrom) :
+	global tGPointerUsed
+	if (tGPointerUsed) : return
+	tGPointerUsed=1
+	Qo=Bladex.CreateEntity("Qo","QueenSword",19124.809000,7393.641000,-1478.599000,"Weapon")
+	ItemTypes.ItemDefaultFuncs (Qo)
+	Qo.Scale=1.000000
+	Qo.Orientation=0.708658,-0.024863,-0.698539,-0.096066
+	Ontake.AddOnTakeEvent("Qo",fundido)
+	tLaunch()
 
 #####################################################################################
 #################################### Pergamino.py ####################################
@@ -1632,11 +1633,11 @@ def deGolem(x=0,y=0,z=0,w=0):
 	troll.Data.ImDeadFuncX(x)
 	Bladex.AddScheduledFunc(Bladex.GetTime()+ 1.0, Bladex.TriggerEvent,(29,))
 	Bladex.AddScheduledFunc(Bladex.GetTime()+ 3.0, BajaSarcofago,())
-	Bladex.AddScheduledFunc(Bladex.GetTime()+ 3.0, RotateToQSword,())
-	Bladex.AddScheduledFunc(Bladex.GetTime()+10.0, tLaunchCamC,(1,1))
+	#Bladex.AddScheduledFunc(Bladex.GetTime()+ 3.0, RotateToQSword,())
+	#Bladex.AddScheduledFunc(Bladex.GetTime()+10.0, tLaunchCamC,(1,1))
 
-	Bladex.ExeMusicEvent(Bladex.GetMusicEvent("ttomb"))
-	ScriptSkip.SkipScriptStart("EscenaFinalTumba")
+	#Bladex.ExeMusicEvent(Bladex.GetMusicEvent("ttomb"))
+	#ScriptSkip.SkipScriptStart("EscenaFinalTumba")
 	Scorer.SetVisible(0)
 
 def RotateToQSword():
