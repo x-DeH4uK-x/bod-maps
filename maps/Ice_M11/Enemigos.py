@@ -42,21 +42,21 @@ EnemyTypes.EnemyDefaultFuncs(pers)
 pers.Data.JoinGroup("1kngt", "foso")
 
 ##2
-#o=Bladex.CreateEntity("IceArma2","Espadaelfica",0,0,0,"Weapon")
-#o=Bladex.CreateEntity("IceEscudo2","Escudo1",0,0,0)
-#Sparks.MakeShield("IceEscudo2")
-#Breakings.SetBreakableWS("IceEscudo2")
+o=Bladex.CreateEntity("IceArma2","Espadaelfica",0,0,0,"Weapon")
+o=Bladex.CreateEntity("IceEscudo2","Escudo1",0,0,0)
+Sparks.MakeShield("IceEscudo2")
+Breakings.SetBreakableWS("IceEscudo2")
 
-#pers=Bladex.CreateEntity("2kngt","Knight_Traitor",-28488.7547891, 9890.49298528, 51812.7610362,"Person")
-#pers.Angle=0.838693187709
-#pers.Level=7
-#Actions.TakeObject(pers.Name,"IceArma2")
-#Actions.TakeObject(pers.Name,"IceEscudo2")
-#pers.ActionAreaMin=pow(2,0)
-#pers.ActionAreaMax=pow(2,1)
-#EnemyTypes.EnemyDefaultFuncs(pers)
-#pers.Data.JoinGroup("2kngt", "foso")
-#pers.SetOnFloor()
+pers=Bladex.CreateEntity("2kngt","Knight_Traitor",-28488.7547891, 9890.49298528, 51812.7610362,"Person")
+pers.Angle=0.838693187709
+pers.Level=lvl_control.GiveLevel(7,11)
+Actions.TakeObject(pers.Name,"IceArma2")
+Actions.TakeObject(pers.Name,"IceEscudo2")
+pers.ActionAreaMin=pow(2,0)
+pers.ActionAreaMax=pow(2,1)
+EnemyTypes.EnemyDefaultFuncs(pers)
+pers.Data.JoinGroup("2kngt", "foso")
+pers.SetOnFloor()
 
 ## PATRULLANTE
 
