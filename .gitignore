@@ -4,3 +4,4 @@
 !maps/*/
 !maps/*/*.py
 !maps/*/*.sf
+!maps/*/*.lvl
