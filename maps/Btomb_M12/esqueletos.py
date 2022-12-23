@@ -51,22 +51,22 @@ for igs in Rres:
 #     Generadores     #
 #######################
 
-generador1=Enm_Gen.CreateEnemiesGenerator(449898, 49373+2000, 29092, "generador1", 1, ("BtombGen1Skl", "Skeleton", "HookSword", 0, "Escudo1", 1, lvl_control.GiveLevel(6,7)), "Skl_appears1",AsingaPropiedadesEsqueletos)
+generador1=Enm_Gen.CreateEnemiesGenerator(449898, 49373+2000, 29092, "generador1", 1, ("BtombGen1Skl", "Skeleton", "HookSword", 0, "Escudo1", 1, lvl_control.GiveLevel(6,7)), "Skl_appears1")
 generador1.InitGenFunc=SaltaTierraGen
 generador1.InitGenArgs=(generador1,)
 generador1.Activate()
 
-generador2=Enm_Gen.CreateEnemiesGenerator(477948, 52635+2000, 16613, "generador2", 1, ("BtombGen2Skl", "Skeleton", "HookSword", 0, "Escudo1", 1, lvl_control.GiveLevel(7,8)), "Skl_appears1",AsingaPropiedadesEsqueletos)
+generador2=Enm_Gen.CreateEnemiesGenerator(477948, 52635+2000, 16613, "generador2", 1, ("BtombGen2Skl", "Skeleton", "HookSword", 0, "Escudo1", 1, lvl_control.GiveLevel(7,8)), "Skl_appears1")
 generador2.InitGenFunc=SaltaTierraGen
 generador2.InitGenArgs=(generador2,)
 generador2.Activate()
 
-generador3=Enm_Gen.CreateEnemiesGenerator(446533, 51335+2000, 92675, "generador3", 1, ("BtombGen3Skl", "Skeleton", "Espadacurva", 0, "Escudo1", 1, lvl_control.GiveLevel(8,9)), "Skl_appears1",AsingaPropiedadesEsqueletos)
+generador3=Enm_Gen.CreateEnemiesGenerator(446533, 51335+2000, 92675, "generador3", 1, ("BtombGen3Skl", "Skeleton", "Espadacurva", 0, "Escudo1", 1, lvl_control.GiveLevel(8,9)), "Skl_appears1")
 generador3.InitGenFunc=SaltaTierraGen
 generador3.InitGenArgs=(generador3,)
 generador3.Activate()
 
-generador4=Enm_Gen.CreateEnemiesGenerator(479432, 54735+2000, 101703, "generador4", 1, ("BtombGen4Skl", "Skeleton", "Espadacurva", 0, "Escudo1", 1, lvl_control.GiveLevel(9,11)), "Skl_appears1",AsingaPropiedadesEsqueletos)
+generador4=Enm_Gen.CreateEnemiesGenerator(479432, 54735+2000, 101703, "generador4", 1, ("BtombGen4Skl", "Skeleton", "Espadacurva", 0, "Escudo1", 1, lvl_control.GiveLevel(9,11)), "Skl_appears1")
 generador4.InitGenFunc=SaltaTierraGen
 generador4.InitGenArgs=(generador4,)
 generador4.Activate()

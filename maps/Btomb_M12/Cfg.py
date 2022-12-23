@@ -61,6 +61,8 @@ execfile("inicio.py")
 
 execfile("gases.py")
 
+execfile("esqueletos.py")
+
 char.Position=325982, -105, -221910
 char.Angle=0.0
 
