@@ -72,7 +72,7 @@ palanc6.OnTurnOffFunc=Cierrarast6
 palanc6.OnTurnOffArgs=()
 
 
-
+"""
 #######################################
 #######################################
 ####### PUERTAS 5 #####################
@@ -125,7 +125,7 @@ def Cierrarast5():
 
 palanc5=Levers.PlaceLever("Palanc5",Levers.LeverType3,(-19379.715795,8262.105290,-7144.357494),(0.688984,0.688984,-0.159064,0.159064),1.0)
 
-palanc5.mode=3
+palanc5.mode=2
 
 
 palanc5.OnTurnOnFunc=Abrerast5
@@ -133,7 +133,7 @@ palanc5.OnTurnOnArgs=()
 
 palanc5.OnTurnOffFunc=Cierrarast5
 palanc5.OnTurnOffArgs=()
-"""
+
 
 ###################
 ##### Puerta  #####

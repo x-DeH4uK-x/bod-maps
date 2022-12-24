@@ -61,6 +61,8 @@ execfile ("musica.py")
 
 execfile ("armas.py")
 
+execfile ("TrollScene.py")
+
 char.Position=87027.1990596, 2115.59558838, 11171.8992518
 char.Angle=1.5656065409
 

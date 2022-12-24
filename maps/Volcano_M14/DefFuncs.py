@@ -1993,7 +1993,7 @@ def wSceneMinsFight() :
 	JMinB.Blind = 0
 	JMinB.LookAtEntity("Player1")
 	Bladex.ExeMusicEvent(Bladex.GetMusicEvent("Combate3"))
-"""
+
 def Abrerast89():
 
 	desplazamientos=(1700.0, 1500.0)
@@ -2017,7 +2017,7 @@ def Abrerast89():
 	son_durante=(sonidorastrillo, sonidorastrillo)
 	son_finales=("", golpemetalmediano)
 	Objects.NDisplaceObject(rast9din, desplazamientos, vectores, vel_iniciales, vel_finales, (), son_durante, son_finales)
-"""
+
 def wFlame(name,x,y):
 	flame=Bladex.CreateEntity(name, "Entity Particle System D1", x,8900,y )
 	flame.ParticleType="PrisBurn"
@@ -2215,7 +2215,7 @@ def wSceneStop(camera,frame):
 	wScenePrisAnimStop()
 	wScenePrisAnimLoop()
 	wSceneMinsFight()
-	#Abrerast89()
+	Abrerast89()
 	ScriptSkip.SkipScriptEnd()
 
 def wSceneSetupCamD(camera,frame) :
