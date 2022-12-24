@@ -2,6 +2,7 @@ import Auras
 import Reference
 import B3DLib
 import ScriptSkip
+import CharStats
 
 ###############################################################################
 ###                     antorchas.py
@@ -454,7 +455,7 @@ def RemueveTierraGen(pos, v1, v2, v3):
 	tierra.DeathTime=Bladex.GetTime()+2.0
 
 
-def SaltaTierraGen(enmgen):	
+def SaltaTierraGen1(enmgen):	
 #def SaltaTierraGen():
 	char=Bladex.GetEntity("Player1")
 	pos=enmgen.Position		
@@ -493,9 +494,14 @@ def ActivateEnemyGenerator(TrSector,Entity):
 		RodEnemyGen2.OnEnter = ""
 
 def CreaSkeletoDichoso(o):
-	o.Level = 0
-	o.ActionAreaMin=pow(2,14)
-	o.ActionAreaMax=pow(2,15)
+	o.Level = 10
+	o.Life = CharStats.GetCharMaxLife(o.Kind, o.Level)
+	o.ActionAreaMin=pow(2,0)
+	o.ActionAreaMax=pow(2,1)
+
+def CreaLiches(o):
+	o.Level = 10
+	o.Life = CharStats.GetCharMaxLife(o.Kind, o.Level)
 
 
 def ActivateSkeletonGenerator():
@@ -831,11 +837,11 @@ def AbrePtaspal():
 	Bladex.AddScheduledFunc(Bladex.GetTime() + 2.0,Investigan,())
 	darfuncs.HideBadGuy("DesertArq2b")
 	darfuncs.HideBadGuy("DesertArq3")
-	#cam = Bladex.GetEntity("Camera")
-	#cam.SetMaxCamera("Piedra_verdeCamera01.cam",0,-1)
-	#cam.AddCameraEvent(-1,StopPtaspalCamera)
-	#Scorer.SetVisible(0)
-	#Bladex.DeactivateInput()
+	cam = Bladex.GetEntity("Camera")
+	cam.SetMaxCamera("Piedra_verdeCamera01.cam",0,-1)
+	cam.AddCameraEvent(-1,StopPtaspalCamera)
+	Scorer.SetVisible(0)
+	Bladex.DeactivateInput()
 	
 	
 	
@@ -1778,7 +1784,6 @@ def SaltaTierraGen(enmgen):
 	
 	
 def CreaSkeletoLlamarada(o):
-	import CharStats 
 	o.Level = 10
 	o.Life = CharStats.GetCharMaxLife(o.Kind, o.Level)	
 	o.ActionAreaMin=pow(2,6)
@@ -1823,6 +1828,9 @@ def RestoreCam():
 	
 
 def ScriptCompleted():
+	if (char.Position[2] > 14473 and char.Position[2] < 18325 and char.Position[0] > -26576 and char.Position[0] < -21835):
+		char.Position=(-24202.244002, -1582.83994655, 7746.15123174)
+
 	punterobaston=Bladex.CreateEntity("PunteroBaston","GhostPointer", -24438,-1010,16503)
 	punterobaston.Static=1
 	punterobaston.Scale=0.100000
@@ -2377,7 +2385,8 @@ def ClearCentralGolem():
 def MuereElGolemMaldito():
 	AbreBarrotes()
 	ClearCentralGolem()
-	Bladex.AddScheduledFunc(Bladex.GetTime()+3.0,ScriptCompleted,())
+	Bladex.AddScheduledFunc(Bladex.GetTime()+3.0,ActivateSkeletonGenerator,())
+	#Bladex.AddScheduledFunc(Bladex.GetTime()+3.0,ScriptCompleted,())
 
 def finGrupoDKGT():
 	Bladex.ExeMusicEvent( Bladex.GetMusicEvent("empty") )
