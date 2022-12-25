@@ -28,7 +28,7 @@ sksShieldA=Bladex.CreateEntity("sksShieldA","Escudo4",0,0,0)
 Sparks.MakeShield("sksShieldA")
 Breakings.SetBreakableWS("sksShieldA")
 #Breakings.SetBreakableWS("sksAxeA") 
-sksSkeletonA=Bladex.CreateEntity("sksSkeletonA","Skeleton",3750,-33000,17125 )  
+sksSkeletonA=Bladex.CreateEntity("sksSkeletonA","Skeleton",3750,-33000,21125 )  
 sksSkeletonA.Person=1
 sksSkeletonA.Angle=4.58605574849
 sksSkeletonA.Level=15
@@ -47,7 +47,7 @@ sksShieldB=Bladex.CreateEntity("sksShieldB","Escudo4",0,0,0)
 Sparks.MakeShield("sksShieldB")
 Breakings.SetBreakableWS("sksShieldB")
 #Breakings.SetBreakableWS("sksAxeB") 
-sksSkeletonB=Bladex.CreateEntity("sksSkeletonB","Skeleton",3250,-33000,18250)
+sksSkeletonB=Bladex.CreateEntity("sksSkeletonB","Skeleton",3250,-33000,22250)
 sksSkeletonB.Person=1
 sksSkeletonB.Angle=4.58605574849
 sksSkeletonB.Level=14
@@ -66,7 +66,7 @@ sksShieldC=Bladex.CreateEntity("sksShieldC","Escudo4",0,0,0)
 Sparks.MakeShield("sksShieldC")
 Breakings.SetBreakableWS("sksShieldC")
 #Breakings.SetBreakableWS("sksAxeC") 
-sksSkeletonC=Bladex.CreateEntity("sksSkeletonC","Skeleton",3000,-33000,19625)
+sksSkeletonC=Bladex.CreateEntity("sksSkeletonC","Skeleton",3000,-33000,23625)
 sksSkeletonC.Person=1
 sksSkeletonC.Angle=4.58605574849
 sksSkeletonC.Level=15

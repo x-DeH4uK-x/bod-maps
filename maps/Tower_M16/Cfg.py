@@ -63,6 +63,8 @@ execfile ("Orks3.py")
 execfile ("ZONAOSCURA.py")
 execfile ("3GOLEMS.py")
 execfile ("MINORX.py")
+execfile ("Salamander.py")
+execfile ("skels.py")
 
 execfile ("iScene.py")
 execfile ("DalGurak3Scene.py")

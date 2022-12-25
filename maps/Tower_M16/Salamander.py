@@ -7,6 +7,7 @@ import Scorer
 
 pers=Bladex.CreateEntity("1lagarto","Salamander",-23000,-40000,9000)
 pers.Person=1
+pers.Level=20
 pers.Angle=4.64
 
 #pers.ActionAreaMin=pow(2,0)

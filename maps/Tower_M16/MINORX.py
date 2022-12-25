@@ -11,20 +11,20 @@ import Actions
 
 
 #1
-#espada=Bladex.CreateEntity("garroteM1","Hachacarnicero",0,0,0,"Weapon")
+espada=Bladex.CreateEntity("garroteM1","Hachacarnicero",0,0,0,"Weapon")
 
-#pers=Bladex.CreateEntity("1MINOT","Minotaur",62134.1, -794.6, 21441.4,"Person")
-#pers.Level=8
-#pers.Angle=0
-#Actions.TakeObject(pers.Name,"garroteM1")
+pers=Bladex.CreateEntity("1MINOT","Minotaur",62134.1, -794.6, 21441.4,"Person")
+pers.Level=8
+pers.Angle=0
+Actions.TakeObject(pers.Name,"garroteM1")
 
-#pers.ActionAreaMin=pow(2,6)
-#pers.ActionAreaMax=pow(2,7)
-#EnemyTypes.EnemyDefaultFuncs(pers)
-#pers.SetOnFloor()
+pers.ActionAreaMin=pow(2,6)
+pers.ActionAreaMax=pow(2,7)
+EnemyTypes.EnemyDefaultFuncs(pers)
+pers.SetOnFloor()
 
-#darfuncs.HideBadGuy("1MINOT")
-#minopuen.AddGuy("1MINOT")
+darfuncs.HideBadGuy("1MINOT")
+
 
 
 
@@ -71,6 +71,7 @@ pers.SetOnFloor()
 
 minopuen=darfuncs.E_Grup()
 minopuen.OnDeath =finGrupominorxo
+minopuen.AddGuy("1MINOT")
 minopuen.AddGuy("3MINOT")
 minopuen.AddGuy("2MINOT")
 minopuen.AddGuy("5DKGT")
