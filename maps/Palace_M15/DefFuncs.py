@@ -1446,7 +1446,7 @@ def ActivaVuelta1():
 	darfuncs.UnhideBadGuy("9ORC")
 	darfuncs.UnhideBadGuy("10ORC")
 	darfuncs.UnhideBadGuy("PalaceArq3")
-	#darfuncs.UnhideBadGuy("PalaceArq4")
+	darfuncs.UnhideBadGuy("PalaceArq4")
 	fastGoTo("9ORC",-33675.3498216, -1124.12117698, 46659.0778065)
 	fastGoTo("10ORC",-33778.3909658, -1108.9670296, 57417.3808738)
 	darfuncs.EnterSecEvent(-24438.7726011, 116.532121721, 78546.0763347,AparecenOrcosPelotudos3)
