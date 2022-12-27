@@ -140,7 +140,7 @@ generadorT5.Activate()
 
 darfuncs.EnterSecEvent(71000, 5000, 55000,generadorT5.GenerateEnemy)
 
-#darfuncs.EnterSecEvent(71000, 5000, 55000,KreaKeletos)
+darfuncs.EnterSecEvent(71000, 5000, 55000,KreaKeletos)
 
 ###################################
 ###enemigos en el templo en la parte de arriba

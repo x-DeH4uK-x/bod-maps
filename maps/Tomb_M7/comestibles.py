@@ -28,10 +28,10 @@ pocimac.CreatePotion("popotomb2")
 #o.Orientation=0.021655,0.172906,-0.003139,0.984695
 #pocimac.CreatePotion("NoName524")
 
-#o=Bladex.CreateEntity("NoName551","PowerPotion",90793.731977,7901.318723,58182.259237,"Physic")
-#o.Scale=1.000000
-#o.Orientation=0.629806,-0.396444,-0.150770,0.650727
-#pocimac.CreatePotion("NoName551")
+o=Bladex.CreateEntity("NoName551","PowerPotion",90793.731977,7901.318723,58182.259237,"Physic")
+o.Scale=1.000000
+o.Orientation=0.629806,-0.396444,-0.150770,0.650727
+pocimac.CreatePowerPotion("NoName551")
 
 
 o=Bladex.CreateEntity("NoName524","Pocima25",-24969.023745,662.117159,27294.814348,"Physic")

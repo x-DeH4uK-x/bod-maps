@@ -550,8 +550,8 @@ def sksStart(index, ent):
 	c = (2250,-33000,21000)
 	d = ( 750,-33000,23125)
 	e = (-2500,-33000,24625)
-	persPath.lock("sksSkeletonA",sksSkelActiv,5,(a,b,c,d,e))
-	persPath.lock("sksSkeletonB",sksSkelActiv,4,(b,c,d,e))
+	persPath.lock("sksSkeletonA",sksSkelActiv,3,(c,d,e))
+	persPath.lock("sksSkeletonB",sksSkelActiv,3,(c,d,e))
 	persPath.lock("sksSkeletonC",sksSkelActiv,3,(c,d,e))
 
 #*************************************************************************************************
@@ -748,10 +748,10 @@ def finGrupoMin1(a=0,b=0,c=0):
 def MINORXO():
 	CierraPuerta10()
 	Bladex.ExeMusicEvent( Bladex.GetMusicEvent("acomblh") )
-	#darfuncs.UnhideBadGuy("1MINOT")
+	darfuncs.UnhideBadGuy("1MINOT")
 	darfuncs.UnhideBadGuy("2MINOT")
 	darfuncs.UnhideBadGuy("5DKGT")
-	#o1 = Bladex.GetEntity("1MINOT")
+	o1 = Bladex.GetEntity("1MINOT")
 	o2 = Bladex.GetEntity("2MINOT")
 	o3 = Bladex.GetEntity("3MINOT")
 	o3.Blind = 0
@@ -960,7 +960,7 @@ def ActivateGurakGlm(sector,entity):
 		cam.SetMaxCamera("AparicionGurak_Camera.cam",0,-1)
 		cam.AddCameraEvent(-1,StopSceneGurak)
 
-		#darfuncs.HideBadGuy("7DKGT")
+		darfuncs.HideBadGuy("7DKGT")
 		darfuncs.HideBadGuy("8DKGT")
 		darfuncs.HideBadGuy("9DKGT")
 
@@ -1007,7 +1007,7 @@ def WakeUpGlm11(sector,entity):
 		darfuncs.HideBadGuy("2ORC")
 		darfuncs.HideBadGuy("3ORC")
 		darfuncs.HideBadGuy("4ORC")
-		#darfuncs.UnhideBadGuy("7DKGT")
+		darfuncs.UnhideBadGuy("7DKGT")
 		darfuncs.UnhideBadGuy("8DKGT")
 		darfuncs.UnhideBadGuy("9DKGT")
 

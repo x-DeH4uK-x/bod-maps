@@ -85,10 +85,10 @@ pers.SetOnFloor()
 espada=Bladex.CreateEntity("dwfOrksword3","Gladius",0,0,0,"Weapon")
 Breakings.SetBreakableWS("dwfOrksword3")
 
-#pers=Bladex.CreateEntity("3ORC","Great_Ork",36137.9974301, -1894.13391242, -16153.8617126,"Person")
-pers=Bladex.CreateEntity("3ORC","Ork",28562.9817626, -1872.74938902, -11275.3625443,"Person")
+pers=Bladex.CreateEntity("3ORC","Great_Ork",36137.9974301, -1894.13391242, -16153.8617126,"Person")
+#pers=Bladex.CreateEntity("3ORC","Ork",28562.9817626, -1872.74938902, -11275.3625443,"Person")
 pers.Angle=1.67604968684
-pers.Level=2
+pers.Level=0
 Actions.TakeObject(pers.Name,"dwfOrksword3")
 Actions.TakeObject("3ORC","llave1")
 pers.ActionAreaMin=pow(2,0)
@@ -97,7 +97,7 @@ EnemyTypes.EnemyDefaultFuncs(pers)
 pers.SetOnFloor()
 
 
-#4-----------------ORCO-ACOMPAÑANDO AL ANTERIOR JEFE-----------
+#4-----------------ORCO-ACOMPAï¿½ANDO AL ANTERIOR JEFE-----------
 #1
 espada=Bladex.CreateEntity("dwfOrksword4","Garrote",0,0,0,"Weapon")
 escudo=Bladex.CreateEntity("dwfEscudo4","Escudo5",0,0,0)
@@ -124,9 +124,9 @@ pers.SetOnFloor()
 # ORCO APOSTADO EN ESCALERAS
 
 espada=Bladex.CreateEntity("dwfOrksword5","Garrote",0,0,0,"Weapon")
-#escudo=Bladex.CreateEntity("dwfEscudo5","Escudo5",0,0,0)
-#Sparks.MakeShield("dwfEscudo5")
-#Breakings.SetBreakableWS("dwfEscudo5")
+escudo=Bladex.CreateEntity("dwfEscudo5","Escudo5",0,0,0)
+Sparks.MakeShield("dwfEscudo5")
+Breakings.SetBreakableWS("dwfEscudo5")
 Breakings.SetBreakableWS("dwfOrksword5")
 
 
@@ -134,7 +134,7 @@ pers=Bladex.CreateEntity("5ORC","Ork",-12465.7005213, -5783.6159203, -24829.0496
 pers.Angle=2.08964365911
 pers.Level=1
 Actions.TakeObject(pers.Name,"dwfOrksword5")
-#Actions.TakeObject(pers.Name,"dwfEscudo5")
+Actions.TakeObject(pers.Name,"dwfEscudo5")
 pers.ActionAreaMin=pow(2,3)
 pers.ActionAreaMax=pow(2,4)
 EnemyTypes.EnemyDefaultFuncs(pers)
@@ -174,7 +174,7 @@ pers.SetOnFloor()
 ###################################################################
 ## 	TROLL guardian de los pulsadores con llave
 
-"""
+
 espada=Bladex.CreateEntity("dwfgarrote11","Garropin",0,0,0,"Weapon")
 
 #pers=Bladex.CreateEntity("11TRL","Troll_Dark",-37911.3655634, -8668.73235028, -78790.0840093,"Person")
@@ -199,8 +199,8 @@ pers.ActionAreaMin=pow(2,2)
 pers.ActionAreaMax=pow(2,3)
 EnemyTypes.EnemyDefaultFuncs(pers)
 pers.SetOnFloor()
-
-## 2 orcos acompañando a troll anterior
+"""
+## 2 orcos acompaï¿½ando a troll anterior
 
 
 #1
@@ -221,7 +221,7 @@ EnemyTypes.EnemyDefaultFuncs(pers)
 pers.SetOnFloor()
 
 
-"""
+
 #2
 espada=Bladex.CreateEntity("dwfOrksword8a","Garrote",0,0,0,"Weapon")
 escudo=Bladex.CreateEntity("dwfEscudo8a","Escudo5",0,0,0)
@@ -238,7 +238,7 @@ pers.ActionAreaMin=pow(2,0)
 pers.ActionAreaMax=pow(2,1)
 EnemyTypes.EnemyDefaultFuncs(pers)
 pers.SetOnFloor()
-"""
+
 
 
 ################################################################################
@@ -276,9 +276,9 @@ pers.SetOnFloor()
 
 
 espada=Bladex.CreateEntity("dwfOrksword10","Garrote",0,0,0,"Weapon")
-#escudo=Bladex.CreateEntity("dwfEscudo10","Escudo5",0,0,0)
-#Sparks.MakeShield("dwfEscudo10")
-#Breakings.SetBreakableWS("dwfEscudo10")
+escudo=Bladex.CreateEntity("dwfEscudo10","Escudo5",0,0,0)
+Sparks.MakeShield("dwfEscudo10")
+Breakings.SetBreakableWS("dwfEscudo10")
 Breakings.SetBreakableWS("dwfOrksword10")
 
 #pers=Bladex.CreateEntity("10ORC","Ork",-141045.529536, -1371.61326569, -58208.426868,"Person")
@@ -286,7 +286,7 @@ pers=Bladex.CreateEntity("10ORC","Ork",-127699.716936, -887.539374806, -81624.18
 pers.Angle=3.10845503211
 pers.Level=2
 Actions.TakeObject(pers.Name,"dwfOrksword10")
-#Actions.TakeObject(pers.Name,"dwfEscudo10")
+Actions.TakeObject(pers.Name,"dwfEscudo10")
 pers.ActionAreaMin=pow(2,2)
 pers.ActionAreaMax=pow(2,3)
 EnemyTypes.EnemyDefaultFuncs(pers)
@@ -525,9 +525,9 @@ Breakings.SetBreakableWS("dwfOrksword36")
 pers=Bladex.CreateEntity("36ORC","Ork",-180522.924781, -11906.3612555, 12282.6696591,"Person")
 pers.Angle=6
 pers.Level=1
-#Actions.TakeObject(pers.Name,"dwfOrksword36")
-Actions.TakeObject(pers.Name,"Antorcha36")
-#Actions.TakeObject(pers.Name,"dwfEscudo36")
+Actions.TakeObject(pers.Name,"dwfOrksword36")
+#Actions.TakeObject(pers.Name,"Antorcha36")
+Actions.TakeObject(pers.Name,"dwfEscudo36")
 Actions.TakeObject(pers.Name,"dwarfPotion36orc")
 pers.ActionAreaMin=pow(2,2)
 pers.ActionAreaMax=pow(2,3)

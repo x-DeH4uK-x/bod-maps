@@ -52,7 +52,7 @@ EnemyTypes.EnemyDefaultFuncs(pers)
 
 
 
-# orco a la izquierda del personaje según entra.
+# orco a la izquierda del personaje segï¿½n entra.
 
 
 o=Bladex.CreateEntity("2ORCPotion","Saquito",0,0,0)
@@ -78,7 +78,7 @@ pers.ActionAreaMax=pow(2,1)
 pers.SetOnFloor()
 EnemyTypes.EnemyDefaultFuncs(pers)
 
-# orco a la derecha del personaje según entra
+# orco a la derecha del personaje segï¿½n entra
 
 
 
@@ -107,7 +107,7 @@ EnemyTypes.EnemyDefaultFuncs(pers)
 
 
 
-# orco mayor con poción frente a gran rastrillo mirando a la izquierda
+# orco mayor con pociï¿½n frente a gran rastrillo mirando a la izquierda
 
 ambiente2 = darfuncs.E_Grup()
 ambiente2.OnDeath = Suenamusica3
@@ -142,7 +142,7 @@ darfuncs.HideBadGuy("3ORC")
 ambiente2.AddGuy(pers.Name)
 ambiente2.OnDeath = Suenamusica3
 
-## nuevo orco arkero tras baños
+## nuevo orco arkero tras baï¿½os
 
 pers=Bladex.CreateEntity("OasisArq9", "Ork",379654.783154, 1205.88831235, -207441.222937,"Person")
 pers.Angle=6.26509690691
@@ -996,9 +996,9 @@ darfuncs.EnterSecEvent(300168.354732, 36882.6071846, -100926.07645,xtrl1)
 
 o=Bladex.CreateEntity("Hachacarnicero","Hachacarnicero",0,0,0,"Weapon")
 
-pers=Bladex.CreateEntity("TRL2","Minotaur",325463.629038, 43888.4093986, -125183.886675,"Person")
+pers=Bladex.CreateEntity("TRL2","Troll_Dark",325463.629038, 43888.4093986, -125183.886675,"Person")
 pers.Angle=6.23028397513
-pers.Level=lvl_control.GiveLevel(3,7)
+pers.Level=lvl_control.GiveLevel(5,9)
 Actions.TakeObject(pers.Name,"Hachacarnicero")
 pers.ActionAreaMin=pow(2,8)
 pers.ActionAreaMax=pow(2,9)
@@ -1134,9 +1134,9 @@ ambiente5.OnDeath = Suenamusica6
 
 o=Bladex.CreateEntity("Hachacarnicero2","Hachacarnicero",0,0,0,"Weapon")
 
-pers=Bladex.CreateEntity("TRL3","Minotaur",325046.15216, 37446.0816322, 18019.6020084,"Person")
+pers=Bladex.CreateEntity("TRL3","Troll_Dark",325046.15216, 37446.0816322, 18019.6020084,"Person")
 pers.Angle=3.21644743057
-pers.Level=lvl_control.GiveLevel(3,7)
+pers.Level=lvl_control.GiveLevel(5,9)
 Actions.TakeObject(pers.Name,"Hachacarnicero2")
 pers.ActionAreaMin=pow(2,0)
 pers.ActionAreaMax=pow(2,1)

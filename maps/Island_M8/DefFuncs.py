@@ -272,7 +272,7 @@ def x4(sectorindex,entityname):
 def KreaKds():
 	darfuncs.UnhideBadGuy("7kd")
 	darfuncs.UnhideBadGuy("8kd")
-	#darfuncs.UnhideBadGuy("9kd")
+	darfuncs.UnhideBadGuy("9kd")
 
 def x5(sectorindex,entityname):
 
@@ -1995,12 +1995,12 @@ def IrPosicion4():
 
 def IrPosicion5():
 	char=Bladex.GetEntity("Player1")
-	char.Position=-11000,-12000,30750			# pasarela 2ª planta
+	char.Position=-11000,-12000,30750			# pasarela 2ï¿½ planta
 	Doors.Restore()
 
 def IrPosicion6():
 	char=Bladex.GetEntity("Player1")
-	char.Position=-19648.1960, -23620.5353, 30660.9485	# pasarela 3ª planta
+	char.Position=-19648.1960, -23620.5353, 30660.9485	# pasarela 3ï¿½ planta
 	Doors.Restore()
 
 def IrPosicion7():

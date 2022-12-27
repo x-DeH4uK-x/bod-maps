@@ -1294,14 +1294,14 @@ def x6(sectorindex,entityname):
 
 	if entityname=='Player1':
 		ApareceYa()
+		aparecedkeletos()
 		sectx6.OnEnter=""
 
 def aparecedkeletos():
-
 	darfuncs.UnhideBadGuy("1Esq")
 	darfuncs.UnhideBadGuy("2Esq")
 
-darfuncs.EnterSecEvent(45183.9458111, -2554.47058924, 28744.4582367,aparecedkeletos)
+# darfuncs.EnterSecEvent(45183.9458111, -2554.47058924, 28744.4582367,aparecedkeletos)
 
 
 ######################################################################################################

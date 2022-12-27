@@ -159,24 +159,24 @@ darfuncs.HideBadGuy("6DKGT")
 #################################################
 
 #1
-#pers=Bladex.CreateEntity("7DKGT", "Dark_Knight",-513.1, -12117.0, 9540.1,"Person")
-#pers.Angle=1.5
-#pers.Level=10
-#pers.ActionAreaMin=pow(2,2)
-#pers.ActionAreaMax=pow(2,3)
-#pers.SetOnFloor()
+pers=Bladex.CreateEntity("7DKGT", "Dark_Knight",-513.1, -12117.0, 9540.1,"Person")
+pers.Angle=1.5
+pers.Level=10
+pers.ActionAreaMin=pow(2,2)
+pers.ActionAreaMax=pow(2,3)
+pers.SetOnFloor()
 
-#bow=Bladex.CreateEntity("towerbow7","Arco",0,0,0,"Weapon")
-#ItemTypes.ItemDefaultFuncs(bow)
-#Actions.TakeObject(pers.Name,bow.Name)
+bow=Bladex.CreateEntity("towerbow7","Arco",0,0,0,"Weapon")
+ItemTypes.ItemDefaultFuncs(bow)
+Actions.TakeObject(pers.Name,bow.Name)
 
-#quiver=Bladex.CreateEntity("towerquiver7","CarcajEnvenenado",0,0,0,"Physic")
-#ItemTypes.ItemDefaultFuncs (quiver)
-#quiver.Data.SetNumberOfArrows(10, pers.Name)
-#Actions.TakeObject(pers.Name,quiver.Name)
-#EnemyTypes.EnemyDefaultFuncs(pers)
+quiver=Bladex.CreateEntity("towerquiver7","CarcajEnvenenado",0,0,0,"Physic")
+ItemTypes.ItemDefaultFuncs (quiver)
+quiver.Data.SetNumberOfArrows(10, pers.Name)
+Actions.TakeObject(pers.Name,quiver.Name)
+EnemyTypes.EnemyDefaultFuncs(pers)
 
-#darfuncs.HideBadGuy("7DKGT")
+darfuncs.HideBadGuy("7DKGT")
 
 #2
 pers=Bladex.CreateEntity("8DKGT", "Dark_Knight",-22704.3, -12866.9, 578.5,"Person")

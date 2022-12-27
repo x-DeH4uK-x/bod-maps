@@ -175,7 +175,7 @@ EnemyTypes.EnemyDefaultFuncs(pers)
 
 ## Troll apostado tras puente justo antes de gema roja y con pocion 100
 
-"""
+
 potion=Bladex.CreateEntity("Pocima100mine1","Pocima100",0,0,0)
 potion.Static=0
 potion.Solid=0
@@ -188,14 +188,14 @@ ItemTypes.ItemDefaultFuncs(o)
 pers=Bladex.CreateEntity("Trollpuente","Troll_Dark",-138492.923724, -4351.27240326, 62589.892,"Person")
 pers.Angle=1.51627983557
 #pers.Level=4
-pers.Level= lvl_control.GiveLevel(3,5)
+#pers.Level= lvl_control.GiveLevel(3,5)
 Actions.TakeObject(pers.Name,"Pocima100mine1")
 Actions.TakeObject(pers.Name,"MineGarropin1")
 pers.ActionAreaMin=pow(2,0)
 pers.ActionAreaMax=pow(2,1)
 pers.SetOnFloor()
 EnemyTypes.EnemyDefaultFuncs(pers)
-"""
+
 
 ###############
 ###########
@@ -571,7 +571,8 @@ troll_final.ImDeadFunc = OnFinalTrollDied
 
 o=Bladex.CreateEntity("MineOrksword616","Maza",0,0,0,"Weapon")
 ItemTypes.ItemDefaultFuncs(o)
-#o=Bladex.CreateEntity("MineEscudo6616","Escudo2",0,0,0)
+o=Bladex.CreateEntity("MineEscudo616","Escudo2",0,0,0)
+ItemTypes.ItemDefaultFuncs(o)
 #Sparks.MakeShield("MineEscudo616")
 #Breakings.SetBreakableWS("MineEscudo616")
 
@@ -579,19 +580,19 @@ pers=Bladex.CreateEntity("616orc6","Great_Ork",-60519.2066138, -19472.5681651, -
 pers.Angle=1
 pers.Level=lvl_control.GiveLevel(2,4)
 Actions.TakeObject(pers.Name,"MineOrksword616")
-#Actions.TakeObject(pers.Name,"MineEscudo616")
+Actions.TakeObject(pers.Name,"MineEscudo616")
 Actions.TakeObject("616orc6","llavemaz")
 pers.ActionAreaMin=pow(2,2)
 pers.ActionAreaMax=pow(2,3)
 pers.SetOnFloor()
 EnemyTypes.EnemyDefaultFuncs(pers)
 
-"""
+
 o=Bladex.CreateEntity("MineOrksword626","Garrote",0,0,0,"Weapon")
 ItemTypes.ItemDefaultFuncs(o)
 o=Bladex.CreateEntity("MineEscudo626","Escudo5",0,0,0,"Weapon")
 ItemTypes.ItemDefaultFuncs(o)
-pers=Bladex.CreateEntity("62orc6","Ork",-63188.1383585, -19318.1783737, -152239.80,"Person")
+pers=Bladex.CreateEntity("62orc6","Ork",-62188.1383585, -19318.1783737, -152239.80,"Person")
 pers.Angle=1
 pers.Level=lvl_control.GiveLevel(2,7)
 Actions.TakeObject(pers.Name,"MineOrksword626")
@@ -600,7 +601,7 @@ pers.ActionAreaMin=pow(2,2)
 pers.ActionAreaMax=pow(2,3)
 pers.SetOnFloor()
 EnemyTypes.EnemyDefaultFuncs(pers)
-"""
+
 
 
 o=Bladex.CreateEntity("MineOrksword636","Hacha",0,0,0,"Weapon")

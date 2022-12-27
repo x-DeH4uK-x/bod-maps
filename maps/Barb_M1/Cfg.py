@@ -60,6 +60,7 @@ execfile ("bolas.py")
 
 execfile ("cadaveres.py")
 execfile ("gentrampa.py")
+execfile ("Generadores.py")
 
 
 execfile("deslz.py")

@@ -38,8 +38,8 @@ import NetSounds
 #************************************
 
 
-def QuemaLaDichosaCajita(ObjectName,use_from):
-	if Actions.StdSetFireToUseFunc(ObjectName,use_from)==1:
+def QuemaLaDichosaCajita():
+	#if Actions.StdSetFireToUseFunc(ObjectName,use_from)==1:
 		for n in range(7):
 			Bladex.GetEntity("AdoqInvPat"+`n+1`).SubscribeToList("Pin")
 
@@ -654,7 +654,8 @@ def SetFireToBoxes (ObjectName,use_from):
 		o=Bladex.GetEntity(toBurn7)
 		Reference.debugprint (toBurn7 + ": will be burnt")
 		o.Data.UsedBy = ObjectName
-		Bladex.AddScheduledFunc(t, o.Data.SetOnFire,(toBurn7,),"Robin")
+		Bladex.AddScheduledFunc(Bladex.GetTime(),QuemaLaDichosaCajita,())
+		Bladex.AddScheduledFunc(t+BoxBurnTime+2, o.Data.SetOnFire,(toBurn7,),"Robin")
 		Bladex.AddScheduledFunc(t+BoxBurnTime+3,    o.Data.StartRunning,(toBurn7,),"Robin")
 		Bladex.AddScheduledFunc(Bladex.GetTime()+10.0,GritaElQuemado,())
 

@@ -82,6 +82,8 @@ execfile("agua.py")
 
 execfile("StartTime.py")
 
+execfile("keletum.py")
+
 char.Position=326125.081178, -1276.36920221, -327.538538204
 char.Angle=0.0
 

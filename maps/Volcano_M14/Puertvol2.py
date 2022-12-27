@@ -72,7 +72,7 @@ palanc6.OnTurnOffFunc=Cierrarast6
 palanc6.OnTurnOffArgs=()
 
 
-
+"""
 #######################################
 #######################################
 ####### PUERTAS 5 #####################
@@ -81,8 +81,8 @@ palanc6.OnTurnOffArgs=()
 ########REJA########
 ##Rastrillo.  con la palanca##
 
-sonidorastrillo=Sounds.CreateEntitySound("../../Sounds/rastrillo.wav", "SonidoRastrillo")
-golpemetalmediano=Sounds.CreateEntitySound("../../Sounds/golpe-metal-mediano.wav", "GolpeMetalMediano")
+# sonidorastrillo=Sounds.CreateEntitySound("../../Sounds/rastrillo.wav", "SonidoRastrillo")
+# golpemetalmediano=Sounds.CreateEntitySound("../../Sounds/golpe-metal-mediano.wav", "GolpeMetalMediano")
 
 rast5=Bladex.CreateEntity("Rast5","Rastrillo",-17250.875753,7079.460563,-6124.335298)
 rast5.Static=1
@@ -93,7 +93,7 @@ Sparks.SetMetalSparkling("Rast5")
 rast5din=Objects.CreateDinamicObject("Rast5")
 
 ##funciones abrir-cerrar##
-
+""""
 def Abrerast5():
 
 	desplazamientos=(1550.0, 1700.0)
@@ -125,7 +125,7 @@ def Cierrarast5():
 
 palanc5=Levers.PlaceLever("Palanc5",Levers.LeverType3,(-19379.715795,8262.105290,-7144.357494),(0.688984,0.688984,-0.159064,0.159064),1.0)
 
-palanc5.mode=3
+palanc5.mode=2
 
 
 palanc5.OnTurnOnFunc=Abrerast5

@@ -46,7 +46,8 @@ execfile ("bgates.py")
 execfile ("cripta.py")
 execfile ("LlaveMagica.py")
 
-
+execfile ("GenEnemy.py")
+execfile ("skeleto.py")
 execfile ("GolemSleep.py")
 execfile ("Enemigos.py")
 execfile ("FinalScene.py")

@@ -65,7 +65,7 @@ generador4.InitGenFunc=SaltaTierraGen
 generador4.InitGenArgs=(generador4,)
 generador4.Activate()
 
-generador5=Enm_Gen.CreateEnemiesGenerator(-184000, 5500, 12500, "gzombie5", 3, ("Gen5Skl", "Skeleton", "Hacha", 0, "Escudo1", 1), "Skl_appears1")
+generador5=Enm_Gen.CreateEnemiesGenerator(-184000, 5500, 125000, "gzombie5", 3, ("Gen5Skl", "Skeleton", "Hacha", 0, "Escudo1", 1), "Skl_appears1")
 generador5.InitGenFunc=SaltaTierraGen
 generador5.InitGenArgs=(generador5,)
 generador5.Activate()
@@ -89,7 +89,7 @@ generador7.InitGenFunc=SaltaTierraGen
 generador7.InitGenArgs=(generador7,)
 generador7.Activate()
 
-generador8=Enm_Gen.CreateEnemiesGenerator(85000, -53500, 131500, "EXTSF2", 1, ("Gen8Skl", "Lich", "Hacha", 0, "Escudo1", 1), "Lch_appears1")
+generador8=Enm_Gen.CreateEnemiesGenerator(85000, -53500, 131500, "EXTSF2b", 1, ("Gen8Skl", "Lich", "Hacha", 0, "Escudo1", 1), "Lch_appears1")
 generador8.InitGenFunc=SaltaTierraGen
 generador8.InitGenArgs=(generador8,)
 generador8.Activate()
@@ -99,7 +99,7 @@ generador9.InitGenFunc=SaltaTierraGen
 generador9.InitGenArgs=(generador9,)
 generador9.Activate()
 
-generador10=Enm_Gen.CreateEnemiesGenerator(108000, -52500, 144500, "EXTSF3", 1, ("Gen10Skl", "Skeleton", "Hacha", 0, "Escudo1", 1), "Skl_appears1")
+generador10=Enm_Gen.CreateEnemiesGenerator(108000, -52500, 144500, "EXTSF3b", 1, ("Gen10Skl", "Skeleton", "Hacha", 0, "Escudo1", 1), "Skl_appears1")
 generador10.InitGenFunc=SaltaTierraGen
 generador10.InitGenArgs=(generador10,)
 generador10.Activate()

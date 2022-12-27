@@ -563,30 +563,30 @@ darfuncs.HideBadGuy(pers.Name)
 #3
 
 
-#pers=Bladex.CreateEntity("PalaceArq4", "Ork",-23696.8917123, -8121.5326812, 91584.1209037,"Person")
-#pers.Angle=3.13309344388
-#pers.Level=15
-#pers.ActionAreaMin=pow(2,4)
-#pers.ActionAreaMax=pow(2,5)
-#pers.SetOnFloor()
+pers=Bladex.CreateEntity("PalaceArq4", "Ork",-23696.8917123, -8121.5326812, 91584.1209037,"Person")
+pers.Angle=3.13309344388
+pers.Level=15
+pers.ActionAreaMin=pow(2,4)
+pers.ActionAreaMax=pow(2,5)
+pers.SetOnFloor()
 
-#sword=Bladex.CreateEntity("PalaceArcEspada4","Cimitarra",0,0,0,"Weapon")
-#ItemTypes.ItemDefaultFuncs(sword)
-#Actions.TakeObject(pers.Name,sword.Name)
+sword=Bladex.CreateEntity("PalaceArcEspada4","Cimitarra",0,0,0,"Weapon")
+ItemTypes.ItemDefaultFuncs(sword)
+Actions.TakeObject(pers.Name,sword.Name)
 
-#bow=Bladex.CreateEntity("Palacebow4","Arco",0,0,0,"Weapon")
-#ItemTypes.ItemDefaultFuncs(bow)
-#Actions.TakeObject(pers.Name,bow.Name)
+bow=Bladex.CreateEntity("Palacebow4","Arco",0,0,0,"Weapon")
+ItemTypes.ItemDefaultFuncs(bow)
+Actions.TakeObject(pers.Name,bow.Name)
 
-#quiver=Bladex.CreateEntity("Palacequiver4","Carcaj",0,0,0,"Physic")
-#ItemTypes.ItemDefaultFuncs (quiver)
-#quiver.Data.SetNumberOfArrows(10, pers.Name)
-#Actions.TakeObject(pers.Name,quiver.Name)
-#EnemyTypes.EnemyDefaultFuncs(pers)
+quiver=Bladex.CreateEntity("Palacequiver4","Carcaj",0,0,0,"Physic")
+ItemTypes.ItemDefaultFuncs (quiver)
+quiver.Data.SetNumberOfArrows(10, pers.Name)
+Actions.TakeObject(pers.Name,quiver.Name)
+EnemyTypes.EnemyDefaultFuncs(pers)
 
-#Inicio1.AddGuy(pers.Name)
+Inicio1.AddGuy(pers.Name)
 
-#darfuncs.HideBadGuy(pers.Name)
+darfuncs.HideBadGuy(pers.Name)
 
 
 ###  bichos junto a entrada que se rompe en escena orcos correteando 

@@ -25,7 +25,7 @@ EnemyTypes.EnemyDefaultFuncs(golemla2)
 AniSound.AsignarSonidosGolem_cl(golemla2.Name)
 golemla2.SetOnFloor()
 
-"""
+
 #char.Position = -26315.4249668, -1223.90439316, -37016.8
 
 Bladex.ReadAlphaBitMap("../../Data/Bubble.bmp","BubbleParticle")
@@ -47,9 +47,9 @@ char.SendTriggerSectorMsgs=1
 
 
 generadorT1 = EnmGenRnd.CreateEnemiesGenerator(6, 2,'../../Sounds/generador-agua.wav')
-generadorT1.AddPoint((-27990, 2100, -17200),("Gen1Lich_1", "Lich", "Hacha3", 0, "Escudo5", 1), "Skl_appears1",13)
-generadorT1.AddPoint((-23100, 2100, -19200),("Gen1Lich_2", "Lich", "Martillo2", 0, "Escudo2", 1), "Skl_appears1",14)
-generadorT1.AddPoint((-28900, 2100, -23100),("Gen1Lich_3", "Lich", "Martillo", 0, "Escudo5", 1), "Skl_appears1",13)
+generadorT1.AddPoint((-27990, 1800, -17200),("Gen1Lich_1", "Lich", "Hacha3", 0, "Escudo5", 1), "Skl_appears1",13)
+generadorT1.AddPoint((-23100, 1800, -19200),("Gen1Lich_2", "Lich", "Martillo2", 0, "Escudo2", 1), "Skl_appears1",14)
+generadorT1.AddPoint((-28900, 1800, -23100),("Gen1Lich_3", "Lich", "Martillo", 0, "Escudo5", 1), "Skl_appears1",13)
 generadorT1.InitGenFunc=SaltaAguaGen
 generadorT1.DifTime = 1.5
 generadorT1.Activate()
@@ -59,9 +59,9 @@ Gen1Sec = Bladex.GetSector(-24000, -1000, -29000)
 Gen1Sec.OnEnter = ActivateGen1
 
 generadorT2 = EnmGenRnd.CreateEnemiesGenerator(6, 2,'../../Sounds/generador-agua.wav')
-generadorT2.AddPoint((-16900, 2100, 5500),("Gen2Lich_1", "Lich", "Hacha3", 0, "Escudo5", 1), "Skl_appears1",12)
-generadorT2.AddPoint((-22200, 2100, 5400),("Gen2Lich_2", "Lich", "Martillo", 0, "Escudo2", 1), "Skl_appears1",13)
-generadorT2.AddPoint((-25700, 2100, 2200),("Gen2Lich_3", "Lich", "Martillo2", 0, "Escudo1", 1), "Skl_appears1",14)
+generadorT2.AddPoint((-16900, 1800, 5500),("Gen2Lich_1", "Lich", "Hacha3", 0, "Escudo5", 1), "Skl_appears1",12)
+generadorT2.AddPoint((-22200, 1800, 5400),("Gen2Lich_2", "Lich", "Martillo", 0, "Escudo2", 1), "Skl_appears1",13)
+generadorT2.AddPoint((-25700, 1800, 2200),("Gen2Lich_3", "Lich", "Martillo2", 0, "Escudo1", 1), "Skl_appears1",14)
 generadorT2.InitGenFunc=SaltaAguaGen
 generadorT2.DifTime = 1.5
 generadorT2.Activate()
@@ -69,9 +69,9 @@ Bladex.SetTriggerSectorFunc("generador2", "OnEnter", ActivateGen2)
 
 
 generadorT3 = EnmGenRnd.CreateEnemiesGenerator(6, 2,'../../Sounds/generador-agua.wav')
-generadorT3.AddPoint(( 9820, 1000, 91400),("Gen3Lich_1", "Lich", "Martillo", 0, "Escudo5", 1), "Skl_appears1",14)
-generadorT3.AddPoint((16600, 1000, 90000),("Gen3Lich_2", "Lich", "Martillo2", 0, "Escudo5", 1), "Skl_appears1",14)
-generadorT3.AddPoint((14700, 1000, 96400),("Gen3Lich_3", "Lich", "Martillo2", 0, "Escudo2", 1), "Skl_appears1",15)
+generadorT3.AddPoint(( 9820, 700, 91400),("Gen3Lich_1", "Lich", "Martillo", 0, "Escudo5", 1), "Skl_appears1",14)
+generadorT3.AddPoint((16600, 700, 90000),("Gen3Lich_2", "Lich", "Martillo2", 0, "Escudo5", 1), "Skl_appears1",14)
+generadorT3.AddPoint((14700, 700, 96400),("Gen3Lich_3", "Lich", "Martillo2", 0, "Escudo2", 1), "Skl_appears1",15)
 generadorT3.InitGenFunc=SaltaAguaGen
 generadorT3.DifTime = 1.5
 generadorT3.Activate()
@@ -79,4 +79,3 @@ generadorT3.Activate()
 
 Gen3Sec = Bladex.GetSector(5092, -1046, 87054)
 Gen3Sec.OnEnter = ActivateGen3
-"""

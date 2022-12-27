@@ -758,17 +758,17 @@ salamanders.OnDeath = aparecensalam
 
 #1
 
-o=Bladex.CreateEntity("VolcanoEspada45","HookSword",0,0,0,"Weapon")
-ItemTypes.ItemDefaultFuncs(o)
-o=Bladex.CreateEntity("VolcanoEscudo45","Escudo1",0,0,0,"Weapon")
-ItemTypes.ItemDefaultFuncs(o)
+# o=Bladex.CreateEntity("VolcanoEspada45","HookSword",0,0,0,"Weapon")
+# ItemTypes.ItemDefaultFuncs(o)
+# o=Bladex.CreateEntity("VolcanoEscudo45","Escudo1",0,0,0,"Weapon")
+# ItemTypes.ItemDefaultFuncs(o)
 
 
-pers=Bladex.CreateEntity("23Salamander","Skeleton",-43241.6804008, 17665.7873157, -42308.0367141,"Person")
-pers.Level=lvl_control.GiveLevel(6,9)
+pers=Bladex.CreateEntity("23Salamander","Salamander",-43241.6804008, 17665.7873157, -42308.0367141,"Person")
+pers.Level=lvl_control.GiveLevel(15,16)
 pers.Angle=4.6663845927
-Actions.TakeObject(pers.Name,"VolcanoEspada45")
-Actions.TakeObject(pers.Name,"VolcanoEscudo45")
+# Actions.TakeObject(pers.Name,"VolcanoEspada45")
+# Actions.TakeObject(pers.Name,"VolcanoEscudo45")
 pers.ActionAreaMin=pow(2,28)
 pers.ActionAreaMax=pow(2,29)
 EnemyTypes.EnemyDefaultFuncs(pers)
@@ -782,16 +782,16 @@ darfuncs.HideBadGuy("23Salamander")
 
 #2
 
-o=Bladex.CreateEntity("VolcanoEspada46","HookSword",0,0,0,"Weapon")
-ItemTypes.ItemDefaultFuncs(o)
-o=Bladex.CreateEntity("VolcanoEscudo46","Escudo1",0,0,0,"Weapon")
-ItemTypes.ItemDefaultFuncs(o)
+# o=Bladex.CreateEntity("VolcanoEspada46","HookSword",0,0,0,"Weapon")
+# ItemTypes.ItemDefaultFuncs(o)
+# o=Bladex.CreateEntity("VolcanoEscudo46","Escudo1",0,0,0,"Weapon")
+# ItemTypes.ItemDefaultFuncs(o)
 
-pers=Bladex.CreateEntity("23bSalamander","Skeleton",-30265.518746, 17703.9650703, -41692.6826871,"Person")
-pers.Level=lvl_control.GiveLevel(8,11)
+pers=Bladex.CreateEntity("23bSalamander","Salamander",-30265.518746, 17703.9650703, -41692.6826871,"Person")
+pers.Level=lvl_control.GiveLevel(15,16)
 pers.Angle=1.67758247772
-Actions.TakeObject(pers.Name,"VolcanoEspada46")
-Actions.TakeObject(pers.Name,"VolcanoEscudo46")
+# Actions.TakeObject(pers.Name,"VolcanoEspada46")
+# Actions.TakeObject(pers.Name,"VolcanoEscudo46")
 pers.ActionAreaMin=pow(2,28)
 pers.ActionAreaMax=pow(2,29)
 EnemyTypes.EnemyDefaultFuncs(pers)
@@ -807,16 +807,16 @@ darfuncs.HideBadGuy("23bSalamander")
 
 #2
 
-o=Bladex.CreateEntity("VolcanoEspada47","HookSword",0,0,0,"Weapon")
-ItemTypes.ItemDefaultFuncs(o)
-o=Bladex.CreateEntity("VolcanoEscudo47","Escudo1",0,0,0,"Weapon")
-ItemTypes.ItemDefaultFuncs(o)
+# o=Bladex.CreateEntity("VolcanoEspada47","HookSword",0,0,0,"Weapon")
+# ItemTypes.ItemDefaultFuncs(o)
+# o=Bladex.CreateEntity("VolcanoEscudo47","Escudo1",0,0,0,"Weapon")
+# ItemTypes.ItemDefaultFuncs(o)
 
-pers=Bladex.CreateEntity("25Salamander","Skeleton",-53808.9913171, 12795.0269512, -17188.6809504,"Person")
-pers.Level=lvl_control.GiveLevel(8,10)
+pers=Bladex.CreateEntity("25Salamander","Salamander",-53808.9913171, 12795.0269512, -17188.6809504,"Person")
+pers.Level=lvl_control.GiveLevel(15,16)
 pers.Angle=3.09432133234
-Actions.TakeObject(pers.Name,"VolcanoEspada47")
-Actions.TakeObject(pers.Name,"VolcanoEscudo47")
+# Actions.TakeObject(pers.Name,"VolcanoEspada47")
+# Actions.TakeObject(pers.Name,"VolcanoEscudo47")
 pers.ActionAreaMin=pow(2,28)
 pers.ActionAreaMax=pow(2,29)
 EnemyTypes.EnemyDefaultFuncs(pers)

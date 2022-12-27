@@ -609,19 +609,19 @@ EnemyTypes.EnemyDefaultFuncs(pers)
 
 #orco p5
 
-#Cimitarra17b=Bladex.CreateEntity("LabyrGladius17b","Orksword",0,0,0,"Weapon")
-#escudo=Bladex.CreateEntity("LabyrEscudo17b","Escudo1",0,0,0,"Weapon")
-#ItemTypes.ItemDefaultFuncs(Cimitarra17b)
-#ItemTypes.ItemDefaultFuncs(escudo)
+Cimitarra17b=Bladex.CreateEntity("LabyrGladius17b","Orksword",0,0,0,"Weapon")
+escudo=Bladex.CreateEntity("LabyrEscudo17b","Escudo1",0,0,0,"Weapon")
+ItemTypes.ItemDefaultFuncs(Cimitarra17b)
+ItemTypes.ItemDefaultFuncs(escudo)
 
-#pers=Bladex.CreateEntity("17ORCb","Great_Ork",6815.480906, -1045.40616884, 29940.9049757,"Person")
-#pers.Level=3
-#pers.Angle=4.26526095071
-#Actions.TakeObject(pers.Name,"LabyrGladius17b")
-#Actions.TakeObject(pers.Name,"LabyrEscudo17b")
-#pers.ActionAreaMin=pow(2,4)
-#pers.ActionAreaMax=pow(2,5)
-#EnemyTypes.EnemyDefaultFuncs(pers)
+pers=Bladex.CreateEntity("17ORCb","Great_Ork",6815.480906, -1045.40616884, 29940.9049757,"Person")
+pers.Level=3
+pers.Angle=4.26526095071
+Actions.TakeObject(pers.Name,"LabyrGladius17b")
+Actions.TakeObject(pers.Name,"LabyrEscudo17b")
+pers.ActionAreaMin=pow(2,4)
+pers.ActionAreaMax=pow(2,5)
+EnemyTypes.EnemyDefaultFuncs(pers)
 #pers.Data.JoinGroup("17ORCb", "exterior")
 
 
@@ -791,19 +791,19 @@ EnemyTypes.EnemyDefaultFuncs(pers)
 #pers.Data.JoinGroup("16ORC", "exterior")
 
 
-#Cimitarra22=Bladex.CreateEntity("LabyrGladius22","Gladius",0,0,0,"Weapon")
-#escudo=Bladex.CreateEntity("LabyrEscudo22","Escudo5",0,0,0,"Weapon")
-#ItemTypes.ItemDefaultFuncs(Cimitarra22)
-#ItemTypes.ItemDefaultFuncs(escudo)
+Cimitarra22=Bladex.CreateEntity("LabyrGladius22","Gladius",0,0,0,"Weapon")
+escudo=Bladex.CreateEntity("LabyrEscudo22","Escudo5",0,0,0,"Weapon")
+ItemTypes.ItemDefaultFuncs(Cimitarra22)
+ItemTypes.ItemDefaultFuncs(escudo)
 
-#pers=Bladex.CreateEntity("22ORC","Ork",13523.6233076, -20155.8533953, 1259.85945102,"Person")
-#pers.Level=5
-#pers.Angle=1.55920221529
-#Actions.TakeObject(pers.Name,"LabyrGladius22")
-#Actions.TakeObject(pers.Name,"LabyrEscudo22")
-#pers.ActionAreaMin=pow(2,12)
-#pers.ActionAreaMax=pow(2,13)
-#EnemyTypes.EnemyDefaultFuncs(pers)
+pers=Bladex.CreateEntity("22ORC","Ork",13523.6233076, -20155.8533953, 1259.85945102,"Person")
+pers.Level=5
+pers.Angle=1.55920221529
+Actions.TakeObject(pers.Name,"LabyrGladius22")
+Actions.TakeObject(pers.Name,"LabyrEscudo22")
+pers.ActionAreaMin=pow(2,12)
+pers.ActionAreaMax=pow(2,13)
+EnemyTypes.EnemyDefaultFuncs(pers)
 #pers.Data.JoinGroup("21ORC", "exterior")
 
 

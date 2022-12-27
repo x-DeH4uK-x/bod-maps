@@ -140,7 +140,7 @@ Bladex.SetTriggerSectorFunc("EXTSF4", "OnEnter", ActivateTrampaTumbaCircular)
 
 #################   TRAMPA AL FINAL DENTRO DE LA TUMBA   #######
 
-generadorT1           = EnmGenRnd.CreateEnemiesGenerator(5, 2)
+generadorT1           = EnmGenRnd.CreateEnemiesGenerator(6, 2)
 generadorT1.Level=1
 generadorT1.VirGenPos = 158000,-50000,165000
 generadorT1.CallBak   = CBgeneradorT1
@@ -150,7 +150,7 @@ generadorT1.AddPoint((163250,-48000 + 300,162000),("m1Gen11Ork_2", "Skeleton", "
 generadorT1.AddPoint((161000,-48000,167000),("m1Gen11Skl_3", "Skeleton", "Maza", 0, "Escudo2", 1), "Skl_appears1",3)
 generadorT1.AddPoint((159000,-48000 + 300,171000),("m1Gen11Ork_4", "Skeleton", "Maza", 0, "Escudo1", 1), "Skl_appears1",3)
 generadorT1.AddPoint((164000,-48000,169000),("m1Gen11Skl_5", "Skeleton", "Gladius", 0, "Escudo2", 1), "Skl_appears1",3)
-#generadorT1.AddPoint((166000,-48000 + 300,165000),("m1Gen11Ork_6", "Skeleton", "Garrote", 0, "Escudo2", 1), "Lch_appears1",1)
+generadorT1.AddPoint((166000,-48000 + 300,165000),("m1Gen11Ork_6", "Skeleton", "Garrote", 0, "Escudo2", 1), "Skl_appears1",1)
 
 generadorT1.InitGenFunc=SaltaTierraGen
 generadorT1.FinishGenFunc=Abrepta3
@@ -159,7 +159,7 @@ generadorT1.Activate()
 
 #############	PRIMER GENERADOR TRAS LAS BOLAS ######################
 
-generadorT2 = EnmGenRnd.CreateEnemiesGenerator(4, 2)
+generadorT2 = EnmGenRnd.CreateEnemiesGenerator(6, 2)
 generadorT2.Level=1
 generadorT2.VirGenPos = 68500,-51800,108500
 generadorT2.CallBak = CBgeneradorT2
